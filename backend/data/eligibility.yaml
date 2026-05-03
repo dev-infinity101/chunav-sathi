@@ -1,0 +1,318 @@
+level: eligibility
+name_en: Voter and Candidate Eligibility
+name_hi: मतदाता और उम्मीदवार पात्रता
+description_en: >
+  Rules governing who can vote and who can stand for election in India, based on the
+  Constitution of India and the Representation of the People Act, 1951. Eligibility
+  conditions differ by house (Lok Sabha, Rajya Sabha, Vidhan Sabha, Vidhan Parishad)
+  and by role (voter vs. candidate).
+description_hi: >
+  भारत में कौन मतदान कर सकता है और कौन चुनाव लड़ सकता है, इसे नियंत्रित करने वाले
+  नियम, भारत के संविधान और जन प्रतिनिधित्व अधिनियम, 1951 पर आधारित हैं।
+
+voter_eligibility:
+  title_en: Voter Eligibility (Who Can Vote)
+  title_hi: मतदाता पात्रता (कौन मतदान कर सकता है)
+  governing_article: Article 326 (Constitution of India)
+  governing_act: Representation of the People Act, 1951 (Sections 16–19)
+  conditions:
+    - id: citizenship
+      condition_en: Must be a citizen of India
+      condition_hi: भारत का नागरिक होना चाहिए
+      note_en: NRIs with Indian citizenship can register and vote in person (not by proxy).
+      note_hi: भारतीय नागरिकता वाले NRI व्यक्तिगत रूप से (प्रॉक्सी से नहीं) पंजीकरण और मतदान कर सकते हैं।
+
+    - id: age
+      condition_en: Must have attained the age of 18 years on the qualifying date
+      condition_hi: योग्यता तिथि पर 18 वर्ष की आयु प्राप्त की हो
+      note_en: >
+        Qualifying date is 1 January for the Summary Revision of electoral rolls.
+        The age of enfranchisement was reduced from 21 to 18 years by the 61st Constitutional
+        Amendment Act, 1988, effective from 28 March 1989.
+      note_hi: >
+        योग्यता तिथि मतदाता सूची के संक्षिप्त संशोधन के लिए 1 जनवरी है। मताधिकार
+        की आयु 61वें संवैधानिक संशोधन अधिनियम, 1988 द्वारा 21 से घटाकर 18 वर्ष की गई।
+
+    - id: ordinary_residence
+      condition_en: Must be ordinarily resident in the constituency
+      condition_hi: निर्वाचन क्षेत्र में सामान्य रूप से निवासी होना चाहिए
+      note_en: >
+        A person can be registered in only one constituency. Students living away from home
+        have a choice of registering at home or at their place of study.
+      note_hi: >
+        व्यक्ति केवल एक निर्वाचन क्षेत्र में पंजीकृत हो सकता है। घर से दूर रहने वाले
+        छात्रों के पास घर या अध्ययन स्थान पर पंजीकरण का विकल्प है।
+
+    - id: not_disqualified
+      condition_en: Must not be disqualified under any law
+      condition_hi: किसी भी कानून के तहत अयोग्य न हो
+      disqualifications:
+        - Not of unsound mind as declared by a competent court.
+        - Not disqualified under any law relating to corrupt practices or election offences.
+        - Not convicted and sentenced to imprisonment for 2 or more years (Section 11A, RPA 1951 — applies to candidates, not voters; voters only disqualified under Section 16).
+      note_en: >
+        Persons detained under preventive detention laws retain their right to vote.
+        Prisoners serving sentences are NOT entitled to vote (Section 62(5) RPA 1951).
+      note_hi: >
+        निवारक निरोध कानूनों के तहत हिरासत में लिए गए व्यक्ति मतदान का अधिकार रखते हैं।
+        सजा काट रहे कैदी मतदान के हकदार नहीं हैं।
+
+  registration_process:
+    title_en: How to Register as a Voter
+    title_hi: मतदाता के रूप में पंजीकरण कैसे करें
+    steps:
+      - step: 1
+        action_en: Fill Form 6 (for new registration) or Form 8 (for correction) or Form 7 (for deletion).
+        action_hi: फॉर्म 6 (नए पंजीकरण के लिए) या फॉर्म 8 (सुधार के लिए) या फॉर्म 7 (विलोपन के लिए) भरें।
+
+      - step: 2
+        action_en: Submit to the Electoral Registration Officer (ERO) in person, by post, or online via voterportal.eci.gov.in or Voter Helpline App.
+        action_hi: इलेक्टोरल रजिस्ट्रेशन ऑफिसर (ERO) को व्यक्तिगत रूप से, डाक से, या voterportal.eci.gov.in या Voter Helpline App के माध्यम से ऑनलाइन जमा करें।
+
+      - step: 3
+        action_en: Attach proof of age (birth certificate, Class 10 marksheet, passport, Aadhaar) and proof of address (ration card, utility bill, bank passbook, Aadhaar).
+        action_hi: आयु प्रमाण (जन्म प्रमाण पत्र, कक्षा 10 की मार्कशीट, पासपोर्ट, आधार) और पते का प्रमाण (राशन कार्ड, उपयोगिता बिल, बैंक पासबुक, आधार) संलग्न करें।
+
+      - step: 4
+        action_en: BLO may visit for field verification. After approval, name is added to the electoral roll and EPIC is issued.
+        action_hi: BLO फील्ड सत्यापन के लिए आ सकता है। अनुमोदन के बाद, नाम मतदाता सूची में जोड़ा जाता है और EPIC जारी किया जाता है।
+
+    qualifying_dates:
+      - date_en: "1 January (primary qualifying date for annual Summary Revision)"
+        date_hi: 1 जनवरी (वार्षिक संक्षिप्त संशोधन के लिए प्राथमिक योग्यता तिथि)
+      - date_en: "1 April, 1 July, 1 October (additional qualifying dates from 2023 under RPA Amendment 2022)"
+        date_hi: 1 अप्रैल, 1 जुलाई, 1 अक्टूबर (2023 से RPA संशोधन 2022 के तहत अतिरिक्त योग्यता तिथियां)
+
+candidate_eligibility:
+  lok_sabha:
+    title_en: Lok Sabha Candidate Eligibility
+    title_hi: लोक सभा उम्मीदवार पात्रता
+    governing_articles:
+      - Article 84 (Constitution of India)
+      - Sections 8–10A (Representation of the People Act, 1951)
+    conditions:
+      - id: citizenship
+        condition_en: Must be a citizen of India
+        condition_hi: भारत का नागरिक होना चाहिए
+
+      - id: age
+        condition_en: Must have attained the age of 25 years
+        condition_hi: 25 वर्ष की आयु प्राप्त की हो
+        source: Article 84(b), Constitution of India
+
+      - id: voter_registration
+        condition_en: Must be registered as a voter in any parliamentary constituency in India
+        condition_hi: भारत में किसी भी संसदीय निर्वाचन क्षेत्र में मतदाता के रूप में पंजीकृत होना चाहिए
+        note_en: Need not be registered in the specific constituency they contest from.
+        note_hi: जिस निर्वाचन क्षेत्र से वे चुनाव लड़ रहे हैं, वहां पंजीकृत होना आवश्यक नहीं है।
+
+      - id: oath_of_allegiance
+        condition_en: Must have made and subscribed oath or affirmation as per Third Schedule of the Constitution
+        condition_hi: संविधान की तृतीय अनुसूची के अनुसार शपथ या प्रतिज्ञान लिया हो
+
+    disqualifications:
+      - id: office_of_profit
+        condition_en: Holds an office of profit under the Government of India or any state government
+        condition_hi: भारत सरकार या किसी राज्य सरकार के अधीन लाभ का पद धारण करता हो
+        source: Article 102(1)(a)
+        note_en: Certain offices are exempted by Parliament by law (e.g., Ministers are not disqualified).
+        note_hi: संसद कानून द्वारा कुछ पदों को छूट देती है (जैसे मंत्री अयोग्य नहीं होते)।
+
+      - id: unsound_mind
+        condition_en: Declared to be of unsound mind by a competent court
+        condition_hi: सक्षम न्यायालय द्वारा अस्वस्थ मस्तिष्क का घोषित किया गया हो
+        source: Article 102(1)(b)
+
+      - id: undischarged_insolvent
+        condition_en: Is an undischarged insolvent
+        condition_hi: अनिर्मुक्त दिवालिया हो
+        source: Article 102(1)(c)
+
+      - id: not_citizen
+        condition_en: Is not a citizen of India, or has voluntarily acquired citizenship of a foreign state, or is under acknowledgement of allegiance to a foreign state
+        condition_hi: भारत का नागरिक नहीं है, या किसी विदेशी राज्य की नागरिकता स्वेच्छा से प्राप्त की है
+        source: Article 102(1)(d)
+
+      - id: conviction
+        condition_en: >
+          Convicted of an offence under Sections 8(1)–8(3) of RPA 1951 and sentenced to
+          imprisonment for 2 or more years (disqualification lasts for 6 years after release).
+          Conviction under Section 8(1) for specific offences (terrorism, communal offences,
+          untouchability etc.) leads to immediate disqualification regardless of sentence.
+        condition_hi: >
+          RPA 1951 की धारा 8(1)–8(3) के तहत दोषी पाया गया हो और 2 या उससे अधिक वर्षों
+          की कारावास की सजा पाई हो (रिहाई के बाद 6 वर्षों तक अयोग्यता जारी रहती है)।
+        source: Section 8, Representation of the People Act, 1951
+
+      - id: corrupt_practices
+        condition_en: Found guilty of corrupt practice under RPA 1951 by court or tribunal
+        condition_hi: न्यायालय या ट्रिब्यूनल द्वारा RPA 1951 के तहत भ्रष्ट आचरण का दोषी पाया गया हो
+        source: Section 8A and Section 11A, Representation of the People Act, 1951
+
+      - id: government_contracts
+        condition_en: Has a subsisting contract with the Government for supply of goods or execution of works
+        condition_hi: सरकार के साथ वस्तुओं की आपूर्ति या कार्यों के निष्पादन के लिए अनुबंध हो
+        source: Section 9A, Representation of the People Act, 1951
+
+    security_deposit:
+      amount_general: "₹25,000"
+      amount_sc_st: "₹12,500"
+      forfeiture_condition: "Candidate receives less than 1/6th of total valid votes polled in the constituency"
+
+  rajya_sabha:
+    title_en: Rajya Sabha Candidate Eligibility
+    title_hi: राज्य सभा उम्मीदवार पात्रता
+    governing_articles:
+      - Article 84 (Constitution of India)
+    conditions:
+      - id: citizenship
+        condition_en: Must be a citizen of India
+        condition_hi: भारत का नागरिक होना चाहिए
+
+      - id: age
+        condition_en: Must have attained the age of 30 years
+        condition_hi: 30 वर्ष की आयु प्राप्त की हो
+        source: Article 84(a), Constitution of India
+
+      - id: voter_registration
+        condition_en: >
+          Must be registered as a voter in the state from which they seek election.
+          (Note: The Supreme Court upheld in 2006 that this residency requirement applies;
+          the Representation of the People Amendment Act 2003 removed the domicile
+          requirement, but the SC's Kuldip Nayar judgment and subsequent practice allow
+          non-residents to contest.)
+        condition_hi: >
+          जिस राज्य से चुनाव लड़ रहे हैं, उस राज्य में मतदाता के रूप में पंजीकृत होना चाहिए।
+        note_en: Domicile requirement removed by RPA Amendment 2003; any voter can contest from any state.
+        note_hi: RPA संशोधन 2003 द्वारा अधिवास आवश्यकता हटाई गई; कोई भी मतदाता किसी भी राज्य से चुनाव लड़ सकता है।
+
+    note_en: All other disqualifications same as Lok Sabha (Sections 8–10A, RPA 1951 and Article 102).
+    note_hi: अन्य सभी अयोग्यताएं लोक सभा के समान (धारा 8–10A, RPA 1951 और अनुच्छेद 102)।
+
+  vidhan_sabha:
+    title_en: Vidhan Sabha (State Assembly) Candidate Eligibility
+    title_hi: विधान सभा उम्मीदवार पात्रता
+    governing_articles:
+      - Article 173 (Constitution of India)
+      - Sections 8–10A (Representation of the People Act, 1951)
+    conditions:
+      - id: citizenship
+        condition_en: Must be a citizen of India
+        condition_hi: भारत का नागरिक होना चाहिए
+
+      - id: age
+        condition_en: Must have attained the age of 25 years
+        condition_hi: 25 वर्ष की आयु प्राप्त की हो
+        source: Article 173(b), Constitution of India
+
+      - id: voter_registration
+        condition_en: Must be registered as a voter in any assembly constituency in the concerned state
+        condition_hi: संबंधित राज्य में किसी भी विधानसभा निर्वाचन क्षेत्र में मतदाता के रूप में पंजीकृत होना चाहिए
+
+    security_deposit:
+      amount_general: "₹10,000"
+      amount_sc_st: "₹5,000"
+      forfeiture_condition: "Candidate receives less than 1/6th of total valid votes polled in the constituency"
+
+  vidhan_parishad:
+    title_en: Vidhan Parishad (State Legislative Council) Candidate Eligibility
+    title_hi: विधान परिषद उम्मीदवार पात्रता
+    governing_articles:
+      - Article 173 (Constitution of India)
+    conditions:
+      - id: age
+        condition_en: Must have attained the age of 30 years
+        condition_hi: 30 वर्ष की आयु प्राप्त की हो
+        source: Article 173(a), Constitution of India
+    note_en: Exists only in UP, Bihar, Maharashtra, Karnataka, Andhra Pradesh, Telangana.
+    note_hi: केवल UP, बिहार, महाराष्ट्र, कर्नाटक, आंध्र प्रदेश, तेलंगाना में मौजूद है।
+
+  panchayat:
+    title_en: Panchayat Candidate Eligibility
+    title_hi: पंचायत उम्मीदवार पात्रता
+    governing_articles:
+      - Article 243F (Constitution of India)
+      - State Panchayati Raj Acts
+    conditions:
+      - id: citizenship
+        condition_en: Must be a citizen of India
+        condition_hi: भारत का नागरिक होना चाहिए
+
+      - id: age
+        condition_en: Must have attained the age as prescribed by state law (minimum 21 years as per Article 243F)
+        condition_hi: राज्य कानून द्वारा निर्धारित आयु प्राप्त की हो (अनुच्छेद 243F के अनुसार न्यूनतम 21 वर्ष)
+
+      - id: voter_registration
+        condition_en: Must be registered as a voter in the concerned Panchayat area
+        condition_hi: संबंधित पंचायत क्षेत्र में मतदाता के रूप में पंजीकृत होना चाहिए
+
+    state_specific_disqualifications:
+      - condition_en: Having more than 2 children (in states like Rajasthan, Haryana, HP, AP, UP, Odisha, Maharashtra)
+        condition_hi: 2 से अधिक बच्चे होना (राजस्थान, हरियाणा, HP, AP, UP, ओडिशा, महाराष्ट्र जैसे राज्यों में)
+      - condition_en: Not having a toilet at home (Rajasthan, Haryana — upheld by Supreme Court)
+        condition_hi: घर में शौचालय न होना (राजस्थान, हरियाणा — सुप्रीम कोर्ट द्वारा बरकरार)
+      - condition_en: Outstanding government dues or loans
+        condition_hi: सरकारी बकाया या ऋण
+
+faqs:
+  - q_en: Can a convicted person vote or contest elections in India?
+    a_en: >
+      Voting: Persons serving prison sentences CANNOT vote (Section 62(5), RPA 1951).
+      Persons on bail or under preventive detention CAN vote.
+      Contesting: A person convicted and sentenced to 2+ years imprisonment is disqualified
+      for 6 years after release. Conviction under Section 8(1) for serious offences
+      (terrorism, communal violence, untouchability etc.) leads to disqualification
+      regardless of sentence length.
+    q_hi: क्या दोषी व्यक्ति भारत में मतदान या चुनाव लड़ सकता है?
+    a_hi: >
+      मतदान: सजा काट रहे कैदी मतदान नहीं कर सकते (धारा 62(5), RPA 1951)।
+      जमानत पर या निवारक हिरासत में व्यक्ति मतदान कर सकते हैं।
+      चुनाव लड़ना: 2+ वर्ष कारावास की सजा पाए व्यक्ति रिहाई के बाद 6 वर्षों के लिए अयोग्य हैं।
+
+  - q_en: At what age can one register as a voter in India?
+    a_en: >
+      18 years (on the qualifying date). The 61st Constitutional Amendment Act, 1988
+      reduced the voting age from 21 to 18 years. From 2023, four qualifying dates are
+      available (1 Jan, 1 Apr, 1 Jul, 1 Oct), allowing those turning 18 in any quarter
+      to register sooner.
+    q_hi: भारत में मतदाता के रूप में कितनी उम्र में पंजीकरण हो सकता है?
+    a_hi: >
+      18 वर्ष (योग्यता तिथि पर)। 61वें संवैधानिक संशोधन अधिनियम, 1988 ने मतदान की आयु
+      21 से घटाकर 18 वर्ष की। 2023 से चार योग्यता तिथियां उपलब्ध हैं (1 जनवरी, 1 अप्रैल,
+      1 जुलाई, 1 अक्टूबर)।
+
+  - q_en: Can a government employee contest elections?
+    a_en: >
+      A government employee must resign from service before filing nominations. Holding
+      an 'office of profit' under any government is a disqualification under Article 102(1)(a)
+      for Parliament and Article 191(1)(a) for state legislatures. Ministers are exempt
+      as their office is covered by law.
+    q_hi: क्या सरकारी कर्मचारी चुनाव लड़ सकता है?
+    a_hi: >
+      सरकारी कर्मचारी को नामांकन दाखिल करने से पहले सेवा से इस्तीफा देना होगा। किसी भी
+      सरकार के अधीन 'लाभ का पद' धारण करना संसद के लिए अनुच्छेद 102(1)(a) और राज्य
+      विधानमंडलों के लिए अनुच्छेद 191(1)(a) के तहत अयोग्यता है।
+
+  - q_en: Is dual citizenship allowed for voting in India?
+    a_en: >
+      No. India does not recognise dual citizenship. An Indian citizen who has voluntarily
+      acquired citizenship of a foreign country loses Indian citizenship under the Citizenship
+      Act, 1955, and is no longer eligible to vote or contest. OCI (Overseas Citizens of
+      India) cardholders are NOT entitled to vote.
+    q_hi: क्या भारत में मतदान के लिए दोहरी नागरिकता की अनुमति है?
+    a_hi: >
+      नहीं। भारत दोहरी नागरिकता को मान्यता नहीं देता। जो भारतीय नागरिक स्वेच्छा से किसी
+      विदेशी देश की नागरिकता प्राप्त करता है, वह नागरिकता अधिनियम, 1955 के तहत भारतीय
+      नागरिकता खो देता है। OCI कार्डधारक मतदान के हकदार नहीं हैं।
+
+  - q_en: How long before elections should I register to be eligible to vote?
+    a_en: >
+      You should register well before elections are announced. The electoral roll is revised
+      on qualifying dates (1 Jan, 1 Apr, 1 Jul, 1 Oct). Once MCC is in force, the rolls
+      are typically frozen for that election. Register at least 3–6 months before an
+      expected election. Check voterportal.eci.gov.in for real-time status.
+    q_hi: मतदान के लिए पात्र होने के लिए चुनाव से कितने पहले पंजीकरण करना चाहिए?
+    a_hi: >
+      चुनाव की घोषणा से पहले ही पंजीकरण करा लेना चाहिए। MCC लागू होने पर रोल सामान्यतः
+      उस चुनाव के लिए फ्रीज हो जाते हैं। अपेक्षित चुनाव से कम से कम 3–6 महीने पहले
+      पंजीकरण कराएं।

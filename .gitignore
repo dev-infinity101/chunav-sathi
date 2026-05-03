@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+.env.*
+*.log
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# FAISS index (generated at build time)
+backend/faiss_index/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Docker
+*.dockerignore
+
+# GCP
+.gcloudignore
+service-account*.json
+
+#docs
+prompts.md
+chunav-saathi-build-plan.md
+chunav-saathi-prd.md 
+
+#tests
+backend/tests   
+backend/app/tests   
+
+#hackathon

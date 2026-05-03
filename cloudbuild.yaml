@@ -1,0 +1,55 @@
+steps:
+  # Build the Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    id: build
+    args:
+      - build
+      - '-t'
+      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
+      - '-t'
+      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:latest'
+      - '.'
+
+  # Push both tags
+  - name: 'gcr.io/cloud-builders/docker'
+    id: push-sha
+    waitFor: [build]
+    args:
+      - push
+      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    id: push-latest
+    waitFor: [build]
+    args:
+      - push
+      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:latest'
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: deploy
+    waitFor: [push-sha]
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - chunav-saathi
+      - '--image=${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
+      - '--region=${_REGION}'
+      - '--platform=managed'
+      - '--service-account=chunav-runner@${PROJECT_ID}.iam.gserviceaccount.com'
+      - '--memory=1Gi'
+      - '--cpu=1'
+      - '--concurrency=80'
+      - '--min-instances=0'
+      - '--max-instances=3'
+      - '--allow-unauthenticated'
+      - '--set-env-vars=PROJECT_ID=${PROJECT_ID},REGION=${_REGION}'
+      - '--set-secrets=GEMINI_API_KEY=gemini-api-key:latest'
+
+substitutions:
+  _REGION: asia-south1
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: E2_HIGHCPU_8

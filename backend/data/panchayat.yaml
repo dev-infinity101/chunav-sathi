@@ -1,0 +1,252 @@
+level: panchayat
+name_en: Panchayati Raj Elections (Local Self-Government)
+name_hi: पंचायती राज चुनाव (स्थानीय स्वशासन)
+description_en: >
+  Panchayati Raj Institutions (PRIs) form the third tier of India's democratic structure,
+  established and strengthened by the 73rd Constitutional Amendment Act, 1992 (effective
+  24 April 1993). They provide self-governance at the village, block, and district levels.
+  Unlike Lok Sabha and Vidhan Sabha elections conducted by ECI, Panchayat elections are
+  conducted by State Election Commissions (SECs) constituted under Article 243K. Rules,
+  reservation policies, and procedures vary significantly across states.
+description_hi: >
+  पंचायती राज संस्थाएं (PRIs) भारत की लोकतांत्रिक संरचना की तीसरी श्रेणी बनाती हैं, जिन्हें
+  73वें संवैधानिक संशोधन अधिनियम, 1992 (प्रभावी 24 अप्रैल 1993) द्वारा स्थापित और
+  मजबूत किया गया। ECI के विपरीत, पंचायत चुनाव अनुच्छेद 243K के तहत गठित राज्य चुनाव
+  आयोगों (SECs) द्वारा आयोजित किए जाते हैं।
+governing_body: State Election Commission (varies by state)
+constitutional_basis: >
+  73rd Constitutional Amendment Act, 1992; Part IX (Articles 243–243O);
+  State Panchayati Raj Acts (vary by state)
+term_years: 5
+minimum_voter_age: 18
+amendment_year: 1992
+amendment_effective: "24 April 1993"
+eleventh_schedule_subjects: 29
+
+tiers:
+  - id: gram_panchayat
+    level: 1
+    name_en: Gram Panchayat (Village Level)
+    name_hi: ग्राम पंचायत (ग्राम स्तर)
+    constitutional_article: Article 243B
+    description_en: >
+      The basic unit of Panchayati Raj. Covers one or more villages. The elected body is
+      called the Gram Panchayat (GP), presided over by a Sarpanch (or Pradhan/Mukhiya,
+      name varies by state). Ward members/Panches represent individual wards within the
+      village. Direct elections are held for ward members.
+    description_hi: >
+      पंचायती राज की आधारभूत इकाई। एक या अधिक गांवों को कवर करती है। निर्वाचित संस्था
+      को ग्राम पंचायत (GP) कहते हैं, जिसकी अध्यक्षता सरपंच (या प्रधान/मुखिया, राज्य
+      अनुसार नाम अलग) करते हैं। वार्ड सदस्य/पंच व्यक्तिगत वार्डों का प्रतिनिधित्व करते हैं।
+    key_facts:
+      - Direct elections are held for ward members (Panches) from individual wards.
+      - Sarpanch is elected either directly by all voters of the Gram Panchayat (most states) or indirectly by elected ward members.
+      - The Gram Sabha (all registered voters of the GP) is the bedrock democratic body under Article 243A.
+      - Gram Sabha meetings must be held at least twice a year in most states.
+      - GPs manage local infrastructure, sanitation, water supply, and implement government schemes.
+      - Approximately 2.55 lakh Gram Panchayats exist across India (as of 2023).
+
+  - id: panchayat_samiti
+    level: 2
+    name_en: Panchayat Samiti (Block/Intermediate Level)
+    name_hi: पंचायत समिति (प्रखंड/मध्यवर्ती स्तर)
+    constitutional_article: Article 243B (intermediate level)
+    alternate_names:
+      - Mandal Panchayat (Karnataka)
+      - Taluk Panchayat (Karnataka, Gujarat)
+      - Kshetra Panchayat (Uttar Pradesh)
+      - Block Panchayat (Kerala)
+    description_en: >
+      The intermediate tier linking village panchayats to the district level. Known by
+      different names across states: Panchayat Samiti (Maharashtra, Rajasthan),
+      Kshetra Panchayat (UP), Mandal Panchayat (Karnataka). States with population below
+      20 lakh may not constitute this tier. The elected body is headed by a Chairperson
+      (Adhyaksh/President, name varies).
+    description_hi: >
+      ग्राम पंचायतों को जिला स्तर से जोड़ने वाला मध्यवर्ती स्तर। राज्यों में अलग नामों से
+      जाना जाता है: पंचायत समिति (महाराष्ट्र, राजस्थान), क्षेत्र पंचायत (UP), मंडल पंचायत
+      (कर्नाटक)। 20 लाख से कम जनसंख्या वाले राज्य इस स्तर का गठन नहीं कर सकते।
+    key_facts:
+      - States with population below 20 lakh are not required to constitute the intermediate tier (Article 243B proviso).
+      - Members are directly elected from ward constituencies within the block.
+      - Sarpanchs of Gram Panchayats within the block are ex-officio members in some states.
+      - Supervises and coordinates the work of Gram Panchayats under it.
+      - Implements block-level development programmes.
+
+  - id: zilla_parishad
+    level: 3
+    name_en: Zilla Parishad (District Level)
+    name_hi: जिला परिषद (जिला स्तर)
+    constitutional_article: Article 243B
+    alternate_names:
+      - Zila Panchayat (Madhya Pradesh, Uttar Pradesh)
+      - District Panchayat (Gujarat)
+      - Adhipati Parishad (West Bengal — now Zilla Parishad)
+    description_en: >
+      The apex tier of Panchayati Raj at the district level. Supervises and coordinates
+      activities of all Panchayat Samitis and Gram Panchayats in the district. Headed by
+      the Adhyaksh/President (or Zila Pramukh in Rajasthan). Members are directly elected
+      from territorial constituencies.
+    description_hi: >
+      जिला स्तर पर पंचायती राज का शीर्ष स्तर। जिले में सभी पंचायत समितियों और ग्राम
+      पंचायतों की गतिविधियों की निगरानी और समन्वय करता है। प्रत्यक्ष रूप से निर्वाचित
+      सदस्यों द्वारा बनाया जाता है।
+    key_facts:
+      - Members directly elected from constituencies within the district.
+      - Manages district-level development, education, health, agriculture support, and infrastructure.
+      - The District Collector (IAS officer) is the chief administrative officer of the district, but Zilla Parishad has elected leadership.
+      - District Planning Committee (DPC) under Article 243ZD prepares development plan for the district.
+      - Can levy local taxes (subject to state law).
+
+reservation_system:
+  description_en: >
+    Article 243D mandates reservation of seats in Panchayati Raj bodies for Scheduled
+    Castes (SC), Scheduled Tribes (ST), and women. States have significant latitude in
+    implementing OBC reservations (subject to Supreme Court triple test).
+  description_hi: >
+    अनुच्छेद 243D अनुसूचित जातियों (SC), अनुसूचित जनजातियों (ST), और महिलाओं के लिए
+    पंचायती राज निकायों में सीटों का आरक्षण अनिवार्य करता है।
+  rules:
+    - Seats reserved for SC proportional to SC population in each Panchayat area.
+    - Seats reserved for ST proportional to ST population in each Panchayat area.
+    - Not less than 1/3rd of total seats reserved for women (many states have raised this to 50%).
+    - Offices of Chairpersons also reserved for SC, ST, and women in proportion to be specified by state legislature.
+    - OBC reservation requires the 'Triple Test' per Supreme Court (Vikas Kishanrao Gawali v. Maharashtra, 2021).
+    - Reserved constituencies rotate after every election in most states.
+
+triple_test_obc:
+  description_en: >
+    Supreme Court's three-part test (Vikas Kishanrao Gawali v. State of Maharashtra, 2021)
+    for valid OBC reservation in local body elections. All three must be satisfied before
+    OBC reservation can be notified.
+  conditions:
+    - Dedicated Commission must conduct empirical investigation on backwardness of OBCs in local bodies.
+    - Commission must specify nature and extent of their backwardness.
+    - OBC reservation must not exceed 50% of total seats when added to SC/ST reservation.
+
+state_variation_note: >
+  Panchayat election rules differ significantly across states on: minimum age to contest
+  (18 or 21 years), disqualifications (number of children — some states disqualify
+  candidates with more than 2 children), reservation rotation methods, gram panchayat
+  size, method of electing Sarpanch (direct vs. indirect), and powers devolved to PRIs.
+
+key_concepts:
+  - term: Gram Sabha
+    full_form: Gram Sabha
+    explanation_en: >
+      The body consisting of all registered voters in a Gram Panchayat area. It is the
+      primary democratic unit under Article 243A. Must meet at least twice a year.
+      Approves annual budget, receives audit reports, and identifies beneficiaries of
+      government schemes. More powerful in states like Kerala and Madhya Pradesh.
+    explanation_hi: >
+      ग्राम पंचायत क्षेत्र के सभी पंजीकृत मतदाताओं से बना निकाय। अनुच्छेद 243A के तहत
+      प्राथमिक लोकतांत्रिक इकाई। वार्षिक बजट को अनुमोदित करता है, लेखापरीक्षा रिपोर्ट
+      प्राप्त करता है, और सरकारी योजनाओं के लाभार्थियों की पहचान करता है।
+
+  - term: State Election Commission
+    full_form: State Election Commission (SEC)
+    explanation_en: >
+      Constitutional body under Article 243K, independent of ECI, responsible for
+      superintendence, direction, and control of Panchayat and urban local body elections
+      in a state. Headed by the State Election Commissioner who holds office with security
+      of tenure similar to a High Court judge.
+    explanation_hi: >
+      अनुच्छेद 243K के तहत संवैधानिक निकाय, ECI से स्वतंत्र, राज्य में पंचायत और शहरी
+      स्थानीय निकाय चुनावों की अधीक्षण, निर्देशन और नियंत्रण के लिए जिम्मेदार।
+
+  - term: 73rd Amendment
+    full_form: 73rd Constitutional Amendment Act, 1992
+    explanation_en: >
+      Landmark amendment that constitutionalized Panchayati Raj in India. Added Part IX
+      (Articles 243–243O) and the Eleventh Schedule (29 subjects) to the Constitution.
+      Made elections every 5 years mandatory, established SECs and State Finance Commissions,
+      and mandated reservation for SC, ST, and women.
+    explanation_hi: >
+      ऐतिहासिक संशोधन जिसने भारत में पंचायती राज को संवैधानिक दर्जा दिया। संविधान में
+      भाग IX (अनुच्छेद 243–243O) और ग्यारहवीं अनुसूची (29 विषय) जोड़ी। हर 5 साल में
+      चुनाव अनिवार्य किए, SEC और राज्य वित्त आयोग स्थापित किए।
+
+  - term: Eleventh Schedule
+    full_form: Eleventh Schedule (29 Subjects)
+    explanation_en: >
+      List of 29 subjects under which state governments may devolve powers and functions
+      to Panchayati Raj institutions. Includes agriculture, land improvement, minor
+      irrigation, rural housing, roads, education, health, poverty alleviation programmes,
+      public distribution system, and maintenance of community assets.
+    explanation_hi: >
+      29 विषयों की सूची जिनके तहत राज्य सरकारें पंचायती राज संस्थाओं को शक्तियां और
+      कार्य सौंप सकती हैं। इसमें कृषि, भूमि सुधार, लघु सिंचाई, ग्रामीण आवास, सड़कें,
+      शिक्षा, स्वास्थ्य, गरीबी उन्मूलन कार्यक्रम शामिल हैं।
+
+faqs:
+  - q_en: Who conducts Panchayat elections — ECI or the state?
+    a_en: >
+      Panchayat elections are conducted by the State Election Commission (SEC) of each
+      state, NOT by the Election Commission of India (ECI). This is mandated by Article
+      243K of the Constitution (inserted by 73rd Amendment). ECI's jurisdiction is limited
+      to elections for Parliament and state legislatures.
+    q_hi: पंचायत चुनाव कौन करवाता है — ECI या राज्य?
+    a_hi: >
+      पंचायत चुनाव प्रत्येक राज्य के राज्य चुनाव आयोग (SEC) द्वारा आयोजित किए जाते हैं,
+      भारत निर्वाचन आयोग (ECI) द्वारा नहीं। यह संविधान के अनुच्छेद 243K (73वें संशोधन
+      द्वारा सम्मिलित) द्वारा अनिवार्य है।
+
+  - q_en: Are Panchayat elections conducted on EVMs?
+    a_en: >
+      It varies by state. Many states use EVMs for Panchayat elections (e.g., Uttar Pradesh,
+      Bihar). Others use paper ballot boxes, especially for smaller gram panchayats.
+      The decision rests with each State Election Commission.
+    q_hi: क्या पंचायत चुनाव EVM पर होते हैं?
+    a_hi: >
+      यह राज्य के अनुसार भिन्न होता है। कई राज्य पंचायत चुनावों के लिए EVM का उपयोग
+      करते हैं (जैसे उत्तर प्रदेश, बिहार)। अन्य राज्य, विशेष रूप से छोटी ग्राम पंचायतों
+      के लिए, कागज़ी बैलट बॉक्स का उपयोग करते हैं।
+
+  - q_en: What is the minimum age to contest Panchayat elections?
+    a_en: >
+      The minimum age is 21 years in most states, though some states allow candidacy at
+      18 years. The Constitution (Article 243F) says a person is disqualified if under the
+      age specified by state law for such elections, which must be at least 21 years for
+      Panchayat elections as per Article 243F.
+    q_hi: पंचायत चुनाव लड़ने की न्यूनतम आयु क्या है?
+    a_hi: >
+      अधिकांश राज्यों में न्यूनतम आयु 21 वर्ष है, हालांकि कुछ राज्य 18 वर्ष में
+      उम्मीदवारी की अनुमति देते हैं। संविधान का अनुच्छेद 243F राज्य कानून द्वारा
+      निर्दिष्ट आयु से कम होने पर अयोग्यता का प्रावधान करता है।
+
+  - q_en: Is reservation for women in Panchayats 33% or 50%?
+    a_en: >
+      The constitutional minimum is 1/3rd (33%) under Article 243D. However, many states
+      have increased women's reservation to 50% through state legislation: Rajasthan,
+      Uttarakhand, Himachal Pradesh, Andhra Pradesh, Bihar, Jharkhand, Chhattisgarh,
+      Madhya Pradesh, Odisha, and others. Check your state's Panchayati Raj Act.
+    q_hi: पंचायतों में महिलाओं के लिए आरक्षण 33% है या 50%?
+    a_hi: >
+      संवैधानिक न्यूनतम अनुच्छेद 243D के तहत 1/3 (33%) है। हालांकि, कई राज्यों ने राज्य
+      कानून के माध्यम से महिलाओं का आरक्षण 50% तक बढ़ाया है: राजस्थान, उत्तराखंड,
+      हिमाचल प्रदेश, आंध्र प्रदेश, बिहार आदि।
+
+  - q_en: Can a person with more than 2 children contest Panchayat elections?
+    a_en: >
+      It depends on the state. Several states (Rajasthan, Haryana, Himachal Pradesh, AP,
+      Odisha, Maharashtra, UP) disqualify a person who has more than 2 children born after
+      a specified cut-off date. This disqualification is upheld by the Supreme Court as
+      not violating fundamental rights (Javed v. State of Haryana, 2003).
+    q_hi: क्या 2 से अधिक बच्चों वाला व्यक्ति पंचायत चुनाव लड़ सकता है?
+    a_hi: >
+      यह राज्य पर निर्भर करता है। कई राज्य (राजस्थान, हरियाणा, हिमाचल प्रदेश, AP,
+      ओडिशा, महाराष्ट्र, UP) निर्दिष्ट कट-ऑफ तिथि के बाद 2 से अधिक बच्चे वाले व्यक्ति
+      को अयोग्य घोषित करते हैं।
+
+  - q_en: What is the 73rd Amendment and what did it change?
+    a_en: >
+      The 73rd Constitutional Amendment Act, 1992 (effective 24 April 1993) constitutionalised
+      Panchayati Raj by inserting Part IX (Articles 243–243O) and the Eleventh Schedule.
+      Key changes: mandatory 5-year elections, independent State Election Commissions,
+      reservation for SC/ST/women (minimum 1/3rd), District Planning Committees, and
+      State Finance Commissions to recommend fund devolution.
+    q_hi: 73वां संशोधन क्या है और इसने क्या बदला?
+    a_hi: >
+      73वें संवैधानिक संशोधन अधिनियम, 1992 (प्रभावी 24 अप्रैल 1993) ने भाग IX
+      (अनुच्छेद 243–243O) और ग्यारहवीं अनुसूची जोड़कर पंचायती राज को संवैधानिक बनाया।
+      मुख्य बदलाव: अनिवार्य 5 वर्षीय चुनाव, स्वतंत्र SEC, SC/ST/महिला आरक्षण।

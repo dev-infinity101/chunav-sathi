@@ -1,0 +1,473 @@
+level: faqs
+name_en: Cross-Cutting FAQs — Indian Elections
+name_hi: क्रॉस-कटिंग सामान्य प्रश्न — भारतीय चुनाव
+description_en: >
+  30 frequently asked questions covering voter registration, polling day procedures,
+  candidate rules, and general election processes applicable across Lok Sabha, Vidhan Sabha,
+  and Panchayat elections. All answers are based on ECI guidelines and applicable law.
+description_hi: >
+  मतदाता पंजीकरण, मतदान दिवस प्रक्रियाओं, उम्मीदवार नियमों और लोक सभा, विधान सभा
+  और पंचायत चुनावों में लागू सामान्य चुनाव प्रक्रियाओं को कवर करने वाले 30 सामान्य
+  प्रश्न।
+total_faqs: 30
+
+faqs:
+  - id: 1
+    category: voter_registration
+    q_en: How do I register as a voter for the first time?
+    a_en: >
+      Fill Form 6 available at voterportal.eci.gov.in or the Voter Helpline App (available
+      on Google Play / App Store). Attach proof of age (Aadhaar, birth certificate, or
+      Class 10 marksheet) and proof of address (Aadhaar, ration card, or utility bill).
+      Submit online or at your local Electoral Registration Officer (ERO) / Booth Level
+      Officer (BLO). After field verification, your name is added to the electoral roll
+      and an EPIC (Voter ID card) is issued. Check status at voterportal.eci.gov.in.
+    q_hi: पहली बार मतदाता के रूप में पंजीकरण कैसे करें?
+    a_hi: >
+      voterportal.eci.gov.in या Voter Helpline App पर उपलब्ध फॉर्म 6 भरें। आयु प्रमाण
+      (आधार, जन्म प्रमाण पत्र, या कक्षा 10 की मार्कशीट) और पते का प्रमाण (आधार, राशन कार्ड,
+      या उपयोगिता बिल) संलग्न करें। ऑनलाइन या अपने स्थानीय ERO/BLO के पास जमा करें।
+      फील्ड सत्यापन के बाद, नाम मतदाता सूची में जोड़ा जाता है और EPIC जारी होता है।
+
+  - id: 2
+    category: voter_registration
+    q_en: What if my name is missing from the electoral rolls?
+    a_en: >
+      First check your name at voterportal.eci.gov.in using your details or EPIC number.
+      If not found, submit Form 6 for fresh enrollment. If you believe your name was
+      wrongly deleted, submit Form 6 and also file a complaint with the ERO. During election
+      season, you can approach the Voter Facilitation Centre set up at polling stations.
+      Call Voter Helpline 1950 for assistance.
+    q_hi: अगर मेरा नाम मतदाता सूची में नहीं है तो क्या करूं?
+    a_hi: >
+      पहले voterportal.eci.gov.in पर अपने विवरण या EPIC नंबर से नाम जांचें।
+      न मिलने पर, नए नामांकन के लिए फॉर्म 6 जमा करें। शिकायत के लिए ERO से संपर्क करें
+      या Voter Helpline 1950 पर कॉल करें।
+
+  - id: 3
+    category: voter_registration
+    q_en: I have moved to a new city. How do I update my voter registration?
+    a_en: >
+      If you have shifted to a different constituency (even within the same city), submit
+      Form 6 for enrollment in the new constituency. Your name will automatically be removed
+      from the old roll once verified. If you have shifted within the same assembly
+      constituency, submit Form 8 for transposition of entry (address update). Do not
+      maintain double registration.
+    q_hi: मैं नए शहर में आ गया हूं। मतदाता पंजीकरण कैसे अपडेट करूं?
+    a_hi: >
+      यदि आप अलग निर्वाचन क्षेत्र में शिफ्ट हुए हैं, तो नए निर्वाचन क्षेत्र में नामांकन
+      के लिए फॉर्म 6 जमा करें। यदि उसी विधानसभा निर्वाचन क्षेत्र के भीतर शिफ्ट हुए हैं,
+      तो पते के अपडेट के लिए फॉर्म 8 जमा करें।
+
+  - id: 4
+    category: voter_registration
+    q_en: I am a student studying in another city. Where should I register — home or college city?
+    a_en: >
+      You have a choice. You can register either at your permanent home address or at your
+      place of study (if you are ordinarily resident there). Once you choose and register,
+      you can vote only at that constituency's polling station. Tip: If you are unable to
+      travel home for elections, register at your college city for convenience.
+    q_hi: मैं दूसरे शहर में पढ़ता हूं। कहां पंजीकरण कराऊं — घर या कॉलेज शहर में?
+    a_hi: >
+      आपके पास विकल्प है। आप अपने स्थायी घर के पते पर या अपने अध्ययन स्थान पर (यदि
+      आप वहां सामान्य रूप से निवासी हैं) पंजीकरण करा सकते हैं। एक बार चुनकर पंजीकृत होने
+      के बाद, आप केवल उस निर्वाचन क्षेत्र के मतदान केंद्र पर मतदान कर सकते हैं।
+
+  - id: 5
+    category: polling_day
+    q_en: What ID documents are accepted at the polling booth?
+    a_en: >
+      Primary: EPIC (Voter ID card). If EPIC is unavailable, 12 alternatives are accepted:
+      (1) Aadhaar card, (2) MNREGA job card, (3) Passbook with photo from bank/post office,
+      (4) Health insurance smart card (ESIC/RSBY), (5) Driving licence, (6) PAN card,
+      (7) NPR Smart card, (8) Indian passport, (9) Pension document with photo,
+      (10) Central/State govt employee photo ID, (11) MP/MLA/MLC photo ID card,
+      (12) Unique Disability ID (UDID) card.
+    q_hi: मतदान केंद्र पर कौन से पहचान पत्र स्वीकार किए जाते हैं?
+    a_hi: >
+      प्राथमिक: EPIC (मतदाता पहचान पत्र)। EPIC उपलब्ध न होने पर 12 विकल्प:
+      (1) आधार कार्ड, (2) MNREGA जॉब कार्ड, (3) बैंक/डाकघर पासबुक, (4) स्वास्थ्य बीमा
+      स्मार्ट कार्ड, (5) ड्राइविंग लाइसेंस, (6) PAN कार्ड, (7) NPR स्मार्ट कार्ड,
+      (8) भारतीय पासपोर्ट, (9) फोटो सहित पेंशन दस्तावेज, (10) सरकारी कर्मचारी पहचान पत्र,
+      (11) सांसद/विधायक पहचान पत्र, (12) UDID कार्ड।
+
+  - id: 6
+    category: polling_day
+    q_en: What is the polling time on election day?
+    a_en: >
+      Standard polling hours are 7:00 AM to 6:00 PM. Timings may vary for remote,
+      hill, or sensitive areas and are specified in the election notification. Voters
+      in the queue at closing time (6 PM) have the right to vote — the Presiding Officer
+      must allow them.
+    q_hi: चुनाव दिवस पर मतदान का समय क्या है?
+    a_hi: >
+      मानक मतदान समय सुबह 7:00 बजे से शाम 6:00 बजे तक है। दूरदराज, पहाड़ी या
+      संवेदनशील क्षेत्रों के लिए समय अलग हो सकता है। बंद होने के समय (6 PM) कतार में
+      खड़े मतदाताओं को मतदान का अधिकार है।
+
+  - id: 7
+    category: polling_day
+    q_en: Can I vote if my name is on the electoral roll but I don't have my Voter ID card?
+    a_en: >
+      Yes. Your name must be on the electoral roll — that is the primary requirement.
+      If your EPIC (Voter ID card) is lost or not yet received, present any of the 12
+      alternative photo ID documents at the polling station. The Presiding Officer will
+      verify your name on the photo electoral roll and allow you to vote.
+    q_hi: अगर मेरा नाम मतदाता सूची में है लेकिन मतदाता पहचान पत्र नहीं है, तो क्या मतदान कर सकता हूं?
+    a_hi: >
+      हां। आपका नाम मतदाता सूची में होना प्राथमिक आवश्यकता है। EPIC खो जाने या न मिलने पर,
+      12 वैकल्पिक फोटो पहचान दस्तावेजों में से कोई भी प्रस्तुत करें।
+
+  - id: 8
+    category: polling_day
+    q_en: What happens inside the polling booth when I vote?
+    a_en: >
+      (1) Show your ID to the Polling Officer who checks your name in the electoral roll.
+      (2) Your left forefinger gets an indelible ink mark.
+      (3) You get a voter slip and proceed to the voting compartment.
+      (4) Press the button on the EVM Ballot Unit next to your chosen candidate's name/symbol.
+      (5) You will hear a beep and the VVPAT will display a paper slip with your vote for 7 seconds.
+      (6) Exit. The entire process takes under 2 minutes.
+    q_hi: मतदान केंद्र के अंदर वोट डालते समय क्या होता है?
+    a_hi: >
+      (1) पोलिंग ऑफिसर को ID दिखाएं जो मतदाता सूची में नाम जांचते हैं।
+      (2) बाईं तर्जनी पर अमिट स्याही लगाई जाती है।
+      (3) आपको मतदाता पर्ची मिलती है और आप वोटिंग कक्ष में जाते हैं।
+      (4) EVM बैलट यूनिट पर अपने चुने उम्मीदवार के नाम/चिह्न के बगल में बटन दबाएं।
+      (5) बीप सुनाई देगी और VVPAT 7 सेकंड के लिए आपके वोट की पर्ची दिखाएगा।
+
+  - id: 9
+    category: polling_day
+    q_en: What is the indelible ink mark and why is it used?
+    a_en: >
+      Indelible ink (made from silver nitrate) is applied to the left index finger of every
+      voter after they cast their vote. It cannot be washed off easily and remains visible
+      for 2–4 weeks. Its purpose is to prevent a person from voting more than once.
+      Manufactured by Mysore Paints and Varnish Ltd., which holds an exclusive contract with ECI.
+    q_hi: अमिट स्याही का निशान क्या है और इसका उपयोग क्यों होता है?
+    a_hi: >
+      अमिट स्याही (सिल्वर नाइट्रेट से बनी) मतदान के बाद प्रत्येक मतदाता की बाईं तर्जनी पर
+      लगाई जाती है। 2–4 सप्ताह तक दिखती है। उद्देश्य एक से अधिक बार मतदान रोकना है।
+      मैसूर पेंट्स एंड वार्निश लिमिटेड द्वारा निर्मित।
+
+  - id: 10
+    category: polling_day
+    q_en: Can I vote on behalf of a family member who is sick or elderly?
+    a_en: >
+      No. Voting is strictly personal and secret. No proxy voting is allowed. However,
+      voters with disabilities or senior citizens (85+ years) can request a postal ballot
+      or home voting facility if available in their state. The BLO can assist with this.
+      Persons with severe disability can also request a companion to assist them inside
+      the voting compartment (Presiding Officer must be satisfied).
+    q_hi: क्या मैं बीमार या बुजुर्ग परिवार के सदस्य की ओर से मतदान कर सकता हूं?
+    a_hi: >
+      नहीं। मतदान पूरी तरह व्यक्तिगत और गोपनीय है। कोई प्रॉक्सी मतदान नहीं है। हालांकि,
+      दिव्यांग मतदाता या वरिष्ठ नागरिक (85+ वर्ष) डाक मतपत्र या होम वोटिंग सुविधा का
+      अनुरोध कर सकते हैं।
+
+  - id: 11
+    category: polling_day
+    q_en: I pressed the wrong button on the EVM. Can I get another chance?
+    a_en: >
+      No. Once a vote is registered on the EVM (confirmed by a beep and VVPAT slip), it
+      cannot be cancelled or changed. The EVM is programmed to accept only one vote per
+      voter. There is no provision for a second chance. Therefore, press the button carefully
+      and confirm the VVPAT slip before leaving the compartment.
+    q_hi: मैंने EVM पर गलत बटन दबा दिया। क्या दूसरा मौका मिलेगा?
+    a_hi: >
+      नहीं। एक बार EVM पर वोट दर्ज होने (बीप और VVPAT पर्ची से पुष्टि) के बाद, इसे
+      रद्द या बदला नहीं जा सकता। EVM प्रति मतदाता केवल एक वोट स्वीकार करता है।
+
+  - id: 12
+    category: general_process
+    q_en: What is NOTA and does voting NOTA make a difference?
+    a_en: >
+      NOTA (None of the Above) is the last option on the EVM, introduced by the Supreme Court
+      in 2013. It allows voters to formally reject all candidates. However, NOTA votes are
+      counted but do not affect the result — even if NOTA gets the most votes, the candidate
+      with the highest valid votes wins. NOTA serves as a measure of voter dissatisfaction.
+    q_hi: NOTA क्या है और NOTA को वोट करने से क्या फर्क पड़ता है?
+    a_hi: >
+      NOTA (None of the Above) 2013 में सुप्रीम कोर्ट द्वारा शुरू किया गया EVM पर अंतिम
+      विकल्प है। मतदाताओं को सभी उम्मीदवारों को औपचारिक रूप से अस्वीकार करने देता है।
+      हालांकि, NOTA वोट गिने जाते हैं लेकिन परिणाम प्रभावित नहीं करते।
+
+  - id: 13
+    category: general_process
+    q_en: How does EVM work and is it safe from tampering?
+    a_en: >
+      An EVM consists of a Control Unit (with the Polling Officer) and a Ballot Unit
+      (in the voting compartment), connected by a 5-metre cable. Votes are stored in a
+      microcontroller chip with no wireless, network, or Bluetooth connectivity —
+      making remote hacking impossible. EVMs are tested through mock polls before use.
+      The Supreme Court-mandated VVPAT allows physical verification of votes.
+    q_hi: EVM कैसे काम करती है और क्या यह छेड़छाड़ से सुरक्षित है?
+    a_hi: >
+      EVM में कंट्रोल यूनिट (पोलिंग ऑफिसर के पास) और बैलट यूनिट (वोटिंग कक्ष में)
+      होती है। वोट माइक्रोकंट्रोलर चिप में संग्रहित होते हैं जिनमें कोई वायरलेस, नेटवर्क
+      या ब्लूटूथ कनेक्टिविटी नहीं है — रिमोट हैकिंग असंभव है।
+
+  - id: 14
+    category: general_process
+    q_en: What is VVPAT and how does it verify my vote?
+    a_en: >
+      VVPAT (Voter Verified Paper Audit Trail) is a printer attached to the EVM Ballot Unit.
+      When you press a button to vote, it prints a slip showing the candidate's name, party
+      symbol, and serial number. This slip is visible through a transparent glass window for
+      exactly 7 seconds, then drops into a sealed box. You cannot touch or take the slip.
+      During counting, 5 randomly selected EVMs per assembly constituency are physically
+      verified by matching VVPAT slips with EVM counts.
+    q_hi: VVPAT क्या है और यह मेरे वोट को कैसे सत्यापित करता है?
+    a_hi: >
+      VVPAT EVM बैलट यूनिट से जुड़ा प्रिंटर है। वोट बटन दबाने पर, यह उम्मीदवार का नाम,
+      दल चिह्न और क्रम संख्या दर्शाती पर्ची छापता है। यह पर्ची 7 सेकंड तक पारदर्शी
+      खिड़की से दिखती है, फिर सील डब्बे में गिर जाती है।
+
+  - id: 15
+    category: general_process
+    q_en: What is the Model Code of Conduct and when does it apply?
+    a_en: >
+      The MCC is ECI's set of guidelines governing conduct of political parties, candidates,
+      and the government from the date of election announcement to the completion of the
+      election process. Key prohibitions: government cannot announce new welfare schemes,
+      inaugurate projects, or make appointments that may influence voters. Campaigning near
+      religious places, use of government vehicles for campaigns, and hate speech are banned.
+    q_hi: आदर्श आचार संहिता क्या है और यह कब लागू होती है?
+    a_hi: >
+      MCC चुनाव घोषणा की तारीख से चुनाव प्रक्रिया पूरी होने तक राजनीतिक दलों, उम्मीदवारों
+      और सरकार के आचरण को नियंत्रित करने वाली ECI की दिशानिर्देश हैं। सरकार नई कल्याण
+      योजनाओं की घोषणा नहीं कर सकती।
+
+  - id: 16
+    category: general_process
+    q_en: How are election results declared? What is FPTP?
+    a_en: >
+      India uses the First Past the Post (FPTP) system. The candidate with the highest
+      number of valid votes in a constituency wins — no minimum vote share required.
+      After all EVMs are counted, the Returning Officer declares the winning candidate.
+      If there is a tie, a draw of lots decides (Section 65, RPA 1951). Results are
+      published in the Official Gazette.
+    q_hi: चुनाव परिणाम कैसे घोषित होते हैं? FPTP क्या है?
+    a_hi: >
+      भारत फर्स्ट-पास्ट-द-पोस्ट (FPTP) प्रणाली उपयोग करता है। निर्वाचन क्षेत्र में सर्वाधिक
+      वैध मत पाने वाला उम्मीदवार जीतता है — कोई न्यूनतम मत हिस्सेदारी आवश्यक नहीं।
+      टाई होने पर ड्रा ऑफ लॉट्स (धारा 65, RPA 1951) निर्णय करता है।
+
+  - id: 17
+    category: candidate_rules
+    q_en: Who can stand for election as a Lok Sabha MP?
+    a_en: >
+      Eligibility: Indian citizen, minimum 25 years old, registered voter in any parliamentary
+      constituency, not holding any disqualifying office of profit. Disqualifications include:
+      conviction with 2+ years sentence (6-year bar after release), unsound mind, insolvency,
+      and corrupt practice findings. Security deposit: ₹25,000 (₹12,500 for SC/ST).
+      Forfeited if less than 1/6th votes received.
+    q_hi: लोक सभा MP के रूप में कौन चुनाव लड़ सकता है?
+    a_hi: >
+      पात्रता: भारतीय नागरिक, न्यूनतम 25 वर्ष, किसी भी संसदीय निर्वाचन क्षेत्र में पंजीकृत
+      मतदाता, किसी अयोग्यता वाले लाभ के पद पर नहीं। सुरक्षा जमा: ₹25,000 (SC/ST के लिए
+      ₹12,500)। 1/6 से कम वोट मिलने पर जब्त।
+
+  - id: 18
+    category: candidate_rules
+    q_en: Can a criminal or convicted person contest elections?
+    a_en: >
+      Under Section 8 of RPA 1951: A person convicted of specific offences under Section 8(1)
+      (terrorism, communal violence, untouchability, electoral offences) is disqualified
+      immediately. A person convicted and sentenced to 2+ years is disqualified from the
+      date of conviction and for 6 years after release. Pending cases (charges framed but
+      not convicted) do NOT disqualify — the candidate must disclose them in the affidavit.
+    q_hi: क्या कोई अपराधी या दोषी व्यक्ति चुनाव लड़ सकता है?
+    a_hi: >
+      RPA 1951 की धारा 8 के तहत: धारा 8(1) के तहत विशिष्ट अपराधों (आतंकवाद, सांप्रदायिक
+      हिंसा, अस्पृश्यता) के लिए दोषी व्यक्ति तुरंत अयोग्य है। 2+ वर्ष की सजा पाए व्यक्ति
+      रिहाई के बाद 6 वर्षों के लिए अयोग्य हैं। लंबित मामले अयोग्य नहीं करते।
+
+  - id: 19
+    category: candidate_rules
+    q_en: What must a candidate disclose in their affidavit?
+    a_en: >
+      Before filing nominations, every candidate must file Form 26 affidavit disclosing:
+      (1) All criminal cases pending against them (charges framed by court),
+      (2) Convicted cases with sentence details,
+      (3) Assets and liabilities of self, spouse, and dependants,
+      (4) Educational qualifications.
+      This affidavit is publicly available on ECI's website and the Myneta.info database.
+      False disclosure is an offence under IPC Section 125A.
+    q_hi: उम्मीदवार को अपने शपथपत्र में क्या प्रकट करना होता है?
+    a_hi: >
+      नामांकन दाखिल करने से पहले हर उम्मीदवार को फॉर्म 26 शपथपत्र में प्रकट करना होता है:
+      (1) उनके खिलाफ लंबित आपराधिक मामले, (2) सजा के विवरण के साथ दोषसिद्धि के मामले,
+      (3) स्वयं, पति/पत्नी और आश्रितों की संपत्ति और देनदारियां, (4) शैक्षणिक योग्यताएं।
+
+  - id: 20
+    category: candidate_rules
+    q_en: What is the election expenditure limit for candidates?
+    a_en: >
+      Revised January 2022:
+      Lok Sabha: ₹95 lakh (large states), ₹75 lakh (small states/UTs).
+      Vidhan Sabha: ₹40 lakh (large states), ₹28 lakh (small states/UTs).
+      Candidates must maintain a register of all expenses and submit accounts to the RO
+      within 30 days of result declaration. Failure to submit is a ground for disqualification.
+      Party expenses are separate from candidate expenses.
+    q_hi: उम्मीदवारों के लिए चुनाव व्यय सीमा क्या है?
+    a_hi: >
+      जनवरी 2022 में संशोधित:
+      लोक सभा: ₹95 लाख (बड़े राज्य), ₹75 लाख (छोटे राज्य/UT)।
+      विधान सभा: ₹40 लाख (बड़े राज्य), ₹28 लाख (छोटे राज्य/UT)।
+      उम्मीदवारों को सभी खर्चों का रजिस्टर बनाए रखना और परिणाम घोषणा के 30 दिनों के
+      भीतर RO को खाते जमा करने होते हैं।
+
+  - id: 21
+    category: general_process
+    q_en: What is a 'mock poll' and why is it conducted?
+    a_en: >
+      A mock poll is a test conducted on polling day morning before actual voting begins.
+      The Presiding Officer casts a few votes on the EVM (pressing each button), verifies
+      VVPAT output, and confirms the machine is working correctly. Polling agents of all
+      candidates can witness it. After the mock poll, the EVM is cleared (reset to zero)
+      before actual voting begins.
+    q_hi: "'मॉक पोल' क्या है और यह क्यों किया जाता है?"
+    a_hi: >
+      मॉक पोल मतदान दिवस की सुबह वास्तविक मतदान शुरू होने से पहले आयोजित परीक्षण है।
+      पीठासीन अधिकारी EVM पर कुछ वोट डालते हैं, VVPAT आउटपुट सत्यापित करते हैं।
+      मॉक पोल के बाद, वास्तविक मतदान शुरू होने से पहले EVM साफ (शून्य पर रीसेट) की जाती है।
+
+  - id: 22
+    category: general_process
+    q_en: Can exit polls be broadcast on election day?
+    a_en: >
+      No. Exit poll results cannot be published, publicised, or broadcast from the time
+      polling begins until 30 minutes after the last polling station closes on the final
+      phase of voting. Violation is punishable under Section 126A of RPA 1951 with up to
+      2 years imprisonment. Opinion polls have no such restriction except during the
+      48-hour silence period.
+    q_hi: क्या चुनाव दिवस पर एग्ज़िट पोल प्रसारित किए जा सकते हैं?
+    a_hi: >
+      नहीं। एग्ज़िट पोल के परिणाम मतदान शुरू होने से लेकर अंतिम चरण में अंतिम मतदान
+      केंद्र बंद होने के 30 मिनट बाद तक प्रकाशित, प्रचारित या प्रसारित नहीं किए जा सकते।
+      RPA 1951 की धारा 126A के तहत 2 वर्ष कारावास का प्रावधान है।
+
+  - id: 23
+    category: general_process
+    q_en: How can I report an election violation or bribe?
+    a_en: >
+      Use the C-Vigil app (available on Google Play/App Store) to report violations with
+      photos or videos. Reports go to the flying squad in real time with a 100-minute
+      resolution target. You can also call 1950 (National Voter Helpline), approach the
+      nearest Flying Squad, or contact the District Election Officer (DEO). Complaints
+      can also be filed at the police station.
+    q_hi: चुनाव उल्लंघन या रिश्वत की रिपोर्ट कैसे करूं?
+    a_hi: >
+      C-Vigil ऐप (Google Play/App Store पर उपलब्ध) का उपयोग फोटो या वीडियो के साथ
+      उल्लंघन रिपोर्ट करने के लिए करें। रिपोर्ट रियल टाइम में फ्लाइंग स्क्वाड को जाती है।
+      1950 (नेशनल वोटर हेल्पलाइन) पर भी कॉल कर सकते हैं।
+
+  - id: 24
+    category: general_process
+    q_en: What is the difference between a 'National Party' and a 'State Party'?
+    a_en: >
+      ECI grants recognition based on performance criteria (Section 6, Election Symbols Order):
+      National Party: recognised in 4+ states OR wins 2% of total Lok Sabha seats (11+ seats)
+      from 3+ states OR 6% of valid votes in 4+ states in general/state elections.
+      State Party: 6% of valid votes + 2 seats in state election, or 3% of seats (min 3 seats),
+      or 1 Lok Sabha seat per 25 assembly seats, or 8% of total valid votes in the state.
+      Currently (2024): 6 national parties (BJP, INC, AAP, BSP, CPI(M), NPP).
+    q_hi: "'राष्ट्रीय दल' और 'राज्य दल' में क्या अंतर है?"
+    a_hi: >
+      ECI प्रदर्शन मानदंड के आधार पर मान्यता देता है:
+      राष्ट्रीय दल: 4+ राज्यों में मान्यता प्राप्त OR कुल लोक सभा सीटों का 2% (11+ सीटें)
+      3+ राज्यों से OR 4+ राज्यों में 6% वैध मत।
+      राज्य दल: राज्य चुनाव में 6% वैध मत + 2 सीटें, या 3% सीटें (न्यूनतम 3)।
+
+  - id: 25
+    category: general_process
+    q_en: What is an election notification and who issues it?
+    a_en: >
+      The election notification is the official gazette notification that formally calls an
+      election for a constituency. For Lok Sabha: issued by the President of India.
+      For Vidhan Sabha: issued by the Governor of the concerned state.
+      The notification triggers the nomination period. It specifies the dates for nomination,
+      scrutiny, withdrawal, polling, and counting.
+    q_hi: चुनाव अधिसूचना क्या है और इसे कौन जारी करता है?
+    a_hi: >
+      चुनाव अधिसूचना आधिकारिक राजपत्र अधिसूचना है जो औपचारिक रूप से निर्वाचन क्षेत्र के
+      लिए चुनाव बुलाती है। लोक सभा के लिए: भारत के राष्ट्रपति द्वारा जारी।
+      विधान सभा के लिए: संबंधित राज्य के राज्यपाल द्वारा।
+
+  - id: 26
+    category: general_process
+    q_en: What is the difference between ECI and SEC?
+    a_en: >
+      ECI (Election Commission of India) under Article 324 conducts elections to Parliament
+      (Lok Sabha, Rajya Sabha) and state legislatures (Vidhan Sabha, Vidhan Parishad).
+      SEC (State Election Commission) under Article 243K is a separate constitutional body
+      in each state that conducts elections to Panchayats and urban local bodies (municipalities,
+      corporations). The two bodies are completely independent of each other.
+    q_hi: ECI और SEC में क्या अंतर है?
+    a_hi: >
+      ECI (अनुच्छेद 324 के तहत) संसद और राज्य विधानमंडलों के चुनाव आयोजित करता है।
+      SEC (अनुच्छेद 243K के तहत) प्रत्येक राज्य में एक अलग संवैधानिक निकाय है जो पंचायतों
+      और शहरी स्थानीय निकायों के चुनाव आयोजित करता है।
+
+  - id: 27
+    category: voter_registration
+    q_en: How do I check if my name is in the voter list?
+    a_en: >
+      Visit voterportal.eci.gov.in and use 'Search in Electoral Roll' feature. You can
+      search by: your name + father/husband name + age + state + district + constituency,
+      OR by your EPIC (Voter ID) number. The Voter Helpline App also has this feature.
+      Call 1950 for assisted search. Your polling station details are also available.
+    q_hi: मैं यह कैसे जानूं कि मेरा नाम मतदाता सूची में है?
+    a_hi: >
+      voterportal.eci.gov.in पर जाएं और 'मतदाता सूची में खोजें' सुविधा का उपयोग करें।
+      नाम + पिता/पति का नाम + आयु + राज्य + जिला + निर्वाचन क्षेत्र से, या अपने
+      EPIC नंबर से खोज सकते हैं। सहायता के लिए 1950 पर कॉल करें।
+
+  - id: 28
+    category: general_process
+    q_en: What is postal ballot and who can use it?
+    a_en: >
+      Postal ballot allows eligible voters to cast their vote by post without visiting the
+      polling station. Eligible categories: (1) Service voters — armed forces, CAPF, and
+      government employees posted outside constituency; (2) Senior citizens 85+ years;
+      (3) Persons with disability (40%+ disability certificate); (4) COVID-affected persons
+      (in applicable elections); (5) Election duty personnel (who cannot reach their polling station).
+      Apply through Form 12D before the election.
+    q_hi: डाक मतपत्र क्या है और इसका उपयोग कौन कर सकता है?
+    a_hi: >
+      डाक मतपत्र पात्र मतदाताओं को मतदान केंद्र जाए बिना डाक से मतदान की अनुमति देता है।
+      पात्र श्रेणियां: (1) सेवा मतदाता — सशस्त्र बल, CAPF, बाहर तैनात सरकारी कर्मचारी;
+      (2) 85+ वर्ष वरिष्ठ नागरिक; (3) दिव्यांगजन (40%+ अक्षमता प्रमाण पत्र);
+      (4) COVID-प्रभावित व्यक्ति; (5) चुनाव ड्यूटी कर्मचारी।
+
+  - id: 29
+    category: general_process
+    q_en: What are the qualifying dates for voter registration and why do they matter?
+    a_en: >
+      Since 2023 (following the RPA Amendment 2022), there are four qualifying dates:
+      1 January, 1 April, 1 July, and 1 October of each year. A person who turns 18
+      on or before any qualifying date can apply for voter registration in that quarter.
+      Previously, only 1 January was the qualifying date, which meant a person turning
+      18 in February had to wait until the next January — a delay of up to 11 months.
+    q_hi: मतदाता पंजीकरण के लिए योग्यता तिथियां क्या हैं और ये क्यों महत्वपूर्ण हैं?
+    a_hi: >
+      2023 से (RPA संशोधन 2022 के बाद), चार योग्यता तिथियां हैं: 1 जनवरी, 1 अप्रैल,
+      1 जुलाई और 1 अक्टूबर। पहले केवल 1 जनवरी योग्यता तिथि थी, जिसका मतलब था फरवरी
+      में 18 वर्ष के होने वाले व्यक्ति को अगले जनवरी तक 11 महीने प्रतीक्षा करनी होती थी।
+
+  - id: 30
+    category: general_process
+    q_en: What is 'countermanding' of an election?
+    a_en: >
+      Countermanding means the postponement or cancellation of polling in a constituency.
+      It occurs when: (1) A recognised party's candidate dies before polling day
+      (Section 52, RPA 1951) — a fresh election schedule is announced; or (2) Serious
+      election malpractice or booth capturing is reported, and the ECI orders repoll at
+      specific booths or the entire constituency. Repoll is conducted for the affected
+      area only, and counting is deferred until after the repoll.
+    q_hi: चुनाव का 'प्रतिहरण' (काउंटरमैंडिंग) क्या है?
+    a_hi: >
+      प्रतिहरण का अर्थ है निर्वाचन क्षेत्र में मतदान का स्थगन या रद्दीकरण। यह तब होता है:
+      (1) किसी मान्यता प्राप्त दल के उम्मीदवार की मतदान से पहले मृत्यु (धारा 52, RPA 1951);
+      (2) गंभीर चुनाव कदाचार या बूथ कैप्चरिंग पर ECI पुनर्मतदान का आदेश देता है।

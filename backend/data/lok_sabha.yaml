@@ -1,0 +1,610 @@
+level: lok_sabha
+name_en: Lok Sabha (General Elections)
+name_hi: लोक सभा (आम चुनाव)
+description_en: >
+  Lok Sabha is the lower house of India's Parliament. Members are directly elected by eligible
+  voters from 543 constituencies across India. The Election Commission of India (ECI) conducts
+  these elections under Articles 324–329 of the Constitution and the Representation of the
+  People Act, 1951.
+description_hi: >
+  लोक सभा भारतीय संसद का निचला सदन है। 543 निर्वाचन क्षेत्रों से सदस्य सीधे मतदाताओं द्वारा
+  चुने जाते हैं। भारत निर्वाचन आयोग (ECI) इन चुनावों का संचालन संविधान के अनुच्छेद 324–329 एवं
+  जन प्रतिनिधित्व अधिनियम, 1951 के तहत करता है।
+governing_body: Election Commission of India
+constitutional_basis: Articles 324–329; Representation of the People Act 1951
+total_seats: 543
+term_years: 5
+minimum_voter_age: 18
+minimum_candidate_age: 25
+
+phases:
+  - id: model_code
+    order: 1
+    name_en: Model Code of Conduct (MCC)
+    name_hi: आदर्श आचार संहिता (MCC)
+    duration_days_typical: 75
+    description_en: >
+      The MCC comes into effect from the date of announcement of the election schedule by ECI
+      and remains in force until the completion of the election process. It governs the conduct
+      of political parties, candidates, and the government machinery.
+    description_hi: >
+      ECI द्वारा चुनाव कार्यक्रम की घोषणा की तारीख से MCC लागू होती है और चुनाव प्रक्रिया
+      पूरी होने तक प्रभावी रहती है। यह राजनीतिक दलों, उम्मीदवारों और सरकारी मशीनरी के आचरण
+      को नियंत्रित करती है।
+    key_facts:
+      - MCC is a set of guidelines issued by ECI; it has no statutory backing but is enforceable through existing laws.
+      - Government cannot announce new schemes or inaugurate projects that may influence voters once MCC is in force.
+      - Candidates and parties must not use government resources for campaigning.
+      - Violations can lead to show-cause notices, FIRs under IPC, and in extreme cases, de-recognition of a party.
+      - MCC applies to all states going to polls simultaneously, even for state assembly elections held alongside.
+
+  - id: notification
+    order: 2
+    name_en: Election Notification (Gazette)
+    name_hi: चुनाव अधिसूचना (राजपत्र)
+    duration_days_typical: 1
+    description_en: >
+      The President of India issues a notification in the Official Gazette, calling elections
+      for specified constituencies. The date of notification marks the formal start of the
+      electoral process for that phase.
+    description_hi: >
+      भारत के राष्ट्रपति आधिकारिक राजपत्र में अधिसूचना जारी करते हैं, जो निर्दिष्ट निर्वाचन
+      क्षेत्रों के लिए चुनाव बुलाती है। अधिसूचना की तारीख उस चरण की औपचारिक चुनाव प्रक्रिया
+      की शुरुआत को चिह्नित करती है।
+    key_facts:
+      - Issued under Section 15 of the Representation of the People Act, 1951.
+      - Separate notifications are issued for different phases.
+      - Once notified, the nomination process commences.
+      - The Returning Officer (RO) is designated before this date.
+
+  - id: nomination
+    order: 3
+    name_en: Filing of Nominations
+    name_hi: नामांकन दाखिल करना
+    duration_days_typical: 7
+    description_en: >
+      Candidates file nomination papers (Form 2B) with the Returning Officer of their
+      constituency. A candidate must be a citizen of India, at least 25 years of age,
+      and enrolled as a voter in any parliamentary constituency.
+    description_hi: >
+      उम्मीदवार अपने निर्वाचन क्षेत्र के रिटर्निंग ऑफिसर के पास नामांकन पत्र (फॉर्म 2B) दाखिल
+      करते हैं। उम्मीदवार को भारत का नागरिक, कम से कम 25 वर्ष का, और किसी भी संसदीय
+      निर्वाचन क्षेत्र में मतदाता के रूप में पंजीकृत होना चाहिए।
+    key_facts:
+      - Security deposit: ₹25,000 for general candidates; ₹12,500 for SC/ST candidates.
+      - Candidate must submit affidavit disclosing criminal antecedents, assets, and liabilities (Form 26).
+      - A proposer from the same constituency must sign the nomination paper.
+      - Maximum of 4 nomination sets can be filed by one candidate.
+      - Nomination papers filed after 3 PM on the last date are rejected.
+
+  - id: scrutiny
+    order: 4
+    name_en: Scrutiny of Nominations
+    name_hi: नामांकन पत्रों की जांच
+    duration_days_typical: 1
+    description_en: >
+      The Returning Officer examines all filed nominations for legal compliance on the day
+      after the last date of filing. Defective nominations may be rejected if errors cannot
+      be corrected.
+    description_hi: >
+      रिटर्निंग ऑफिसर नामांकन दाखिल करने की अंतिम तारीख के अगले दिन सभी नामांकनों की
+      कानूनी अनुपालन के लिए जांच करते हैं। यदि त्रुटियों को ठीक नहीं किया जा सकता तो
+      दोषपूर्ण नामांकन रद्द किए जा सकते हैं।
+    key_facts:
+      - Scrutiny is done at the RO's office in the presence of candidates or their agents.
+      - Grounds for rejection include non-citizen status, age below 25, disqualification under RPA 1951, or incomplete affidavit.
+      - Candidates can appeal rejection to the High Court after results are declared (election petition).
+      - RO must give the candidate an opportunity to correct curable defects.
+
+  - id: withdrawal
+    order: 5
+    name_en: Withdrawal of Candidature
+    name_hi: उम्मीदवारी वापस लेना
+    duration_days_typical: 2
+    description_en: >
+      Candidates who have been validly nominated may withdraw their candidature within the
+      specified period. After withdrawal, the final list of contesting candidates is published.
+    description_hi: >
+      वैध रूप से नामांकित उम्मीदवार निर्धारित अवधि के भीतर अपनी उम्मीदवारी वापस ले सकते हैं।
+      वापसी के बाद, प्रतिस्पर्धा करने वाले उम्मीदवारों की अंतिम सूची प्रकाशित की जाती है।
+    key_facts:
+      - Withdrawal must be made in person or through an authorised agent before the RO.
+      - Withdrawal cannot be revoked once submitted.
+      - Election symbols are allotted after the withdrawal deadline.
+      - If only one candidate remains, the election is uncontested and the candidate is returned unopposed.
+
+  - id: campaign
+    order: 6
+    name_en: Election Campaign
+    name_hi: चुनाव प्रचार
+    duration_days_typical: 14
+    description_en: >
+      Candidates and political parties campaign actively to seek votes. This phase starts
+      after the final list of candidates is published and ends 48 hours before polling begins
+      (the silence period). Campaigning must comply with the MCC.
+    description_hi: >
+      उम्मीदवार और राजनीतिक दल वोट मांगने के लिए सक्रिय रूप से प्रचार करते हैं। यह चरण
+      उम्मीदवारों की अंतिम सूची प्रकाशित होने के बाद शुरू होता है और मतदान से 48 घंटे पहले
+      (मौन काल) समाप्त होता है।
+    key_facts:
+      - Political parties registered with ECI receive free time on state-owned Doordarshan and All India Radio.
+      - Expenditure limits: ₹95 lakh per candidate in large states; ₹75 lakh in smaller states/UTs (2022 revision).
+      - All election expenditure must be recorded in a register and submitted post-election.
+      - Exit polls are banned from the time polling begins until 30 minutes after the last phase closes.
+      - Loudspeakers require prior permission; no campaigning allowed near religious places.
+
+  - id: silence_period
+    order: 7
+    name_en: Silence Period (Campaign Blackout)
+    name_hi: मौन काल (प्रचार वर्जित अवधि)
+    duration_days_typical: 2
+    description_en: >
+      A mandatory 48-hour period before polling day during which all political campaigning
+      is prohibited. No public meetings, rallies, or processions may be held. The purpose
+      is to allow voters to reflect without partisan pressure.
+    description_hi: >
+      मतदान दिवस से 48 घंटे पहले एक अनिवार्य अवधि जिसके दौरान सभी राजनीतिक प्रचार निषिद्ध
+      है। कोई सार्वजनिक सभा, रैली या जुलूस नहीं निकाला जा सकता। उद्देश्य मतदाताओं को
+      दलीय दबाव के बिना विचार करने देना है।
+    key_facts:
+      - Prohibition under Section 126 of the Representation of the People Act, 1951.
+      - Television and cable channels cannot telecast any election matter during this period.
+      - Social media posts that constitute campaign content are also prohibited.
+      - Violation is a cognizable offence punishable with imprisonment up to 2 years, or fine, or both.
+
+  - id: polling
+    order: 8
+    name_en: Polling Day (Voting)
+    name_hi: मतदान दिवस
+    duration_days_typical: 1
+    description_en: >
+      Registered voters cast their votes at designated polling stations using Electronic
+      Voting Machines (EVMs). A Voter Verified Paper Audit Trail (VVPAT) is attached to
+      every EVM. Polling typically runs from 7 AM to 6 PM, with timings adjusted for
+      remote areas.
+    description_hi: >
+      पंजीकृत मतदाता इलेक्ट्रॉनिक वोटिंग मशीन (EVM) का उपयोग करके निर्धारित मतदान केंद्रों
+      पर अपना मत डालते हैं। प्रत्येक EVM के साथ VVPAT लगा होता है। मतदान आमतौर पर
+      सुबह 7 बजे से शाम 6 बजे तक होता है।
+    key_facts:
+      - Each polling station serves a maximum of 1,500 voters (ECI guideline).
+      - Presiding Officer and Polling Officers manage each booth; Central Armed Police Forces provide security.
+      - Photo Electoral Roll (Photo ID-based voter list) is used for identification.
+      - Mock poll is conducted before actual polling begins each day.
+      - Persons in the queue at closing time are entitled to vote.
+      - Voters can use 12 accepted photo ID documents if EPIC (Voter ID card) is not available.
+
+  - id: counting
+    order: 9
+    name_en: Counting of Votes
+    name_hi: मतगणना
+    duration_days_typical: 1
+    description_en: >
+      Votes are counted at designated counting centres under strict security. EVM ballot
+      units are opened sequentially, and VVPAT slips are verified for at least 5 randomly
+      selected EVMs per assembly segment. Results are tabulated round by round.
+    description_hi: >
+      कड़ी सुरक्षा के बीच निर्धारित मतगणना केंद्रों पर वोटों की गिनती की जाती है। EVM की
+      बैलट यूनिट क्रमिक रूप से खोली जाती है, और प्रत्येक विधानसभा खंड में कम से कम 5
+      यादृच्छिक रूप से चुनी गई EVM के लिए VVPAT पर्चियों का सत्यापन किया जाता है।
+    key_facts:
+      - Counting agents of each candidate are allowed at the counting centre.
+      - Each round of counting covers votes from one EVM ballot unit.
+      - VVPAT verification: 5 EVMs per assembly segment selected by draw of lots (Supreme Court order, 2019).
+      - Postal ballots (including those of service voters and overseas voters) are counted first.
+      - Counting begins at 8 AM on the designated counting day.
+
+  - id: results
+    order: 10
+    name_en: Declaration of Results
+    name_hi: परिणाम घोषणा
+    duration_days_typical: 1
+    description_en: >
+      The Returning Officer declares the winner after all votes are counted. The candidate
+      with the highest number of valid votes (First Past the Post system) wins. The result
+      is published in the Official Gazette.
+    description_hi: >
+      सभी वोटों की गिनती के बाद रिटर्निंग ऑफिसर विजेता की घोषणा करते हैं। सर्वाधिक वैध
+      मतों वाला उम्मीदवार (फर्स्ट-पास्ट-द-पोस्ट प्रणाली) जीतता है। परिणाम आधिकारिक
+      राजपत्र में प्रकाशित होता है।
+    key_facts:
+      - India uses the First Past the Post (FPTP) electoral system — no minimum vote share required.
+      - If two candidates tie, a draw of lots decides the winner (Section 65, RPA 1951).
+      - Security deposit is forfeited if a candidate receives less than 1/6th of total valid votes polled.
+      - An elected member must take oath before the Speaker within the first session.
+      - Election petitions challenging results must be filed in the High Court within 45 days of result declaration.
+
+key_concepts:
+  - term: EVM
+    full_form: Electronic Voting Machine
+    explanation_en: >
+      A standalone, battery-operated device comprising a Control Unit (with the Polling
+      Officer) and a Ballot Unit (in the voting compartment). Votes are stored in
+      microcontrollers with no external connectivity, making remote tampering impossible.
+    explanation_hi: >
+      एक स्वतंत्र, बैटरी-चालित उपकरण जिसमें कंट्रोल यूनिट (पोलिंग ऑफिसर के पास) और
+      बैलट यूनिट (वोटिंग कक्ष में) होती है। वोट माइक्रोकंट्रोलर में संग्रहित होते हैं जिनमें
+      कोई बाहरी कनेक्टिविटी नहीं होती।
+
+  - term: VVPAT
+    full_form: Voter Verified Paper Audit Trail
+    explanation_en: >
+      A printer device attached to EVM that prints a paper slip showing the candidate's
+      name and symbol whenever a vote is cast. The voter can verify their vote through
+      a transparent window for 7 seconds before the slip drops into a sealed box.
+    explanation_hi: >
+      EVM से जुड़ा एक प्रिंटर उपकरण जो वोट डाले जाने पर उम्मीदवार के नाम और प्रतीक वाली
+      पर्ची छापता है। मतदाता 7 सेकंड के लिए पारदर्शी खिड़की से अपना वोट सत्यापित कर सकता है।
+
+  - term: NOTA
+    full_form: None of the Above
+    explanation_en: >
+      A ballot option introduced by Supreme Court order in 2013 (PUCL v. Union of India)
+      allowing voters to formally reject all candidates. NOTA is the last option on the EVM.
+      A NOTA majority does not invalidate the election; the candidate with the most votes still wins.
+    explanation_hi: >
+      2013 में सुप्रीम कोर्ट के आदेश (PUCL बनाम भारत संघ) से शुरू की गई एक विकल्प जो
+      मतदाताओं को सभी उम्मीदवारों को औपचारिक रूप से अस्वीकार करने देती है। NOTA EVM पर
+      अंतिम विकल्प है। NOTA बहुमत चुनाव को अमान्य नहीं करता।
+
+  - term: MCC
+    full_form: Model Code of Conduct
+    explanation_en: >
+      A set of guidelines issued by ECI regulating the behaviour of political parties,
+      candidates, and the government from the date of election announcement to the
+      completion of the election process. It is based on consensus among parties.
+    explanation_hi: >
+      ECI द्वारा जारी दिशानिर्देशों का एक समूह जो चुनाव की घोषणा की तारीख से चुनाव प्रक्रिया
+      पूरी होने तक राजनीतिक दलों, उम्मीदवारों और सरकार के आचरण को नियंत्रित करता है।
+
+  - term: Returning Officer
+    full_form: Returning Officer
+    explanation_en: >
+      An officer appointed by ECI (usually a senior IAS officer) responsible for conducting
+      the election in a constituency — from receiving nominations to declaring results.
+      Assisted by an Assistant Returning Officer (ARO).
+    explanation_hi: >
+      ECI द्वारा नियुक्त अधिकारी (आमतौर पर वरिष्ठ IAS अधिकारी) जो एक निर्वाचन क्षेत्र में
+      चुनाव आयोजित करने के लिए जिम्मेदार होता है — नामांकन प्राप्त करने से लेकर परिणाम
+      घोषित करने तक।
+
+  - term: Form 6
+    full_form: Application for Registration in Electoral Roll
+    explanation_en: >
+      The form used by a citizen to apply for inclusion in the electoral roll of their
+      constituency for the first time, or when shifting to a new constituency. Submitted
+      to the Electoral Registration Officer (ERO).
+    explanation_hi: >
+      एक नागरिक द्वारा पहली बार अपने निर्वाचन क्षेत्र की मतदाता सूची में शामिल होने के लिए,
+      या नए निर्वाचन क्षेत्र में स्थानांतरण के समय उपयोग किया जाने वाला फॉर्म।
+
+  - term: Form 7
+    full_form: Application for Deletion from Electoral Roll
+    explanation_en: >
+      Used to request deletion of a voter's name from the electoral roll — due to death,
+      shifting to another constituency, or disqualification. Can also be used to object
+      to wrongful inclusion of another person.
+    explanation_hi: >
+      मृत्यु, दूसरे निर्वाचन क्षेत्र में स्थानांतरण, या अयोग्यता के कारण मतदाता का नाम
+      मतदाता सूची से हटाने के लिए उपयोग किया जाता है।
+
+  - term: Form 8
+    full_form: Application for Correction of Entries in Electoral Roll
+    explanation_en: >
+      Used to correct errors in an existing voter registration — such as wrong name
+      spelling, address, photo, or other particulars. Also used for transposition of
+      entry within the same assembly constituency.
+    explanation_hi: >
+      मौजूदा मतदाता पंजीकरण में त्रुटियों को सुधारने के लिए उपयोग किया जाता है — जैसे
+      गलत नाम वर्तनी, पता, फोटो, या अन्य विवरण।
+
+  - term: EPIC
+    full_form: Electors Photo Identity Card
+    explanation_en: >
+      The laminated photo identity card issued by ECI to registered voters. Also known
+      as the Voter ID Card. It serves as the primary identity document at polling booths,
+      though 11 alternative documents are also accepted.
+    explanation_hi: >
+      ECI द्वारा पंजीकृत मतदाताओं को जारी किया गया लेमिनेटेड फोटो पहचान पत्र। इसे
+      मतदाता पहचान पत्र भी कहते हैं। मतदान केंद्र पर प्राथमिक पहचान दस्तावेज के रूप में
+      काम करता है।
+
+  - term: ERO
+    full_form: Electoral Registration Officer
+    explanation_en: >
+      An officer (usually a sub-divisional magistrate) responsible for preparing,
+      revising, and maintaining the electoral roll for each assembly constituency.
+      Citizens submit Forms 6/7/8 to the ERO.
+    explanation_hi: >
+      प्रत्येक विधानसभा निर्वाचन क्षेत्र के लिए मतदाता सूची तैयार करने, संशोधित करने और
+      बनाए रखने के लिए जिम्मेदार अधिकारी (आमतौर पर उप-मंडल मजिस्ट्रेट)।
+
+  - term: BLO
+    full_form: Booth Level Officer
+    explanation_en: >
+      A government employee assigned to a single polling booth responsible for maintaining
+      the accuracy of the electoral roll at the local level. Acts as the primary point of
+      contact between voters and the ERO.
+    explanation_hi: >
+      एक सरकारी कर्मचारी जो एक मतदान केंद्र को सौंपा गया है और स्थानीय स्तर पर मतदाता
+      सूची की सटीकता बनाए रखने के लिए जिम्मेदार है।
+
+  - term: Postal Ballot
+    full_form: Postal Ballot
+    explanation_en: >
+      A facility allowing certain categories of voters to cast their vote by post without
+      visiting the polling station. Eligible categories include service voters (military,
+      paramilitary, government employees posted outside constituency), senior citizens
+      (85+), persons with disabilities, and COVID-affected persons.
+    explanation_hi: >
+      कुछ श्रेणी के मतदाताओं को बिना मतदान केंद्र जाए डाक द्वारा मतदान करने की सुविधा।
+      पात्र श्रेणियों में सेवा मतदाता (सैन्य, अर्धसैनिक, बाहर तैनात सरकारी कर्मचारी),
+      वरिष्ठ नागरिक (85+), दिव्यांगजन शामिल हैं।
+
+  - term: FPTP
+    full_form: First Past the Post
+    explanation_en: >
+      India's electoral system for Lok Sabha and state assemblies. The candidate with the
+      highest number of valid votes in a constituency wins, regardless of whether they
+      secure an absolute majority. Also called Simple Plurality system.
+    explanation_hi: >
+      लोक सभा और राज्य विधानसभाओं के लिए भारत की चुनाव प्रणाली। निर्वाचन क्षेत्र में
+      सर्वाधिक वैध मत प्राप्त करने वाला उम्मीदवार जीतता है, भले ही उसे पूर्ण बहुमत न मिले।
+
+  - term: Presiding Officer
+    full_form: Presiding Officer
+    explanation_en: >
+      The officer in charge of a polling station on polling day. Responsible for conducting
+      the poll, maintaining order, and ensuring the secrecy of the ballot. Appointed by
+      the District Election Officer.
+    explanation_hi: >
+      मतदान दिवस पर मतदान केंद्र का प्रभारी अधिकारी। मतदान आयोजित करने, व्यवस्था बनाए
+      रखने और मतपत्र की गोपनीयता सुनिश्चित करने के लिए जिम्मेदार।
+
+  - term: Election Petition
+    full_form: Election Petition
+    explanation_en: >
+      A legal challenge to an election result filed in the concerned High Court within
+      45 days of the declaration of results. Grounds include corrupt practices, disqualification
+      of the winner, or irregularities in conduct of election.
+    explanation_hi: >
+      परिणाम की घोषणा के 45 दिनों के भीतर संबंधित उच्च न्यायालय में दायर चुनाव परिणाम
+      को कानूनी चुनौती। आधार में भ्रष्ट आचरण, विजेता की अयोग्यता, या चुनाव आयोजन में
+      अनियमितताएं शामिल हैं।
+
+  - term: Delimitation
+    full_form: Delimitation
+    explanation_en: >
+      The process of fixing the boundaries and number of parliamentary and assembly
+      constituencies. Carried out by the Delimitation Commission constituted by the President.
+      The last delimitation was in 2008 based on 2001 Census.
+    explanation_hi: >
+      संसदीय और विधानसभा निर्वाचन क्षेत्रों की सीमाएं और संख्या तय करने की प्रक्रिया।
+      राष्ट्रपति द्वारा गठित परिसीमन आयोग द्वारा की जाती है।
+
+faqs:
+  - q_en: How many phases does the Lok Sabha election typically have?
+    a_en: >
+      The number of phases varies. The 2024 General Elections were conducted in 7 phases
+      spanning April–June 2024. Large states like Uttar Pradesh are typically split across
+      multiple phases to enable efficient deployment of security forces.
+    q_hi: लोक सभा चुनाव में आमतौर पर कितने चरण होते हैं?
+    a_hi: >
+      चरणों की संख्या भिन्न होती है। 2024 के आम चुनाव 7 चरणों में अप्रैल–जून 2024 में
+      हुए। उत्तर प्रदेश जैसे बड़े राज्यों को आमतौर पर सुरक्षा बलों की कुशल तैनाती के लिए
+      कई चरणों में बांटा जाता है।
+
+  - q_en: Who is eligible to vote in Lok Sabha elections?
+    a_en: >
+      Any citizen of India who is 18 years or older on the qualifying date (1 January of the
+      revision year), is ordinarily resident in a constituency, and is registered in the
+      electoral roll of that constituency. Persons of unsound mind (declared by court) and
+      those with corrupt practice convictions are disqualified.
+    q_hi: लोक सभा चुनाव में मतदान के लिए कौन पात्र है?
+    a_hi: >
+      भारत का कोई भी नागरिक जो योग्यता तिथि (संशोधन वर्ष की 1 जनवरी) को 18 वर्ष या उससे
+      अधिक आयु का है, किसी निर्वाचन क्षेत्र में सामान्य रूप से निवासी है, और उस निर्वाचन
+      क्षेत्र की मतदाता सूची में पंजीकृत है।
+
+  - q_en: What is the minimum age to contest a Lok Sabha election?
+    a_en: 25 years, as prescribed under Article 84(b) of the Constitution of India.
+    q_hi: लोक सभा चुनाव लड़ने की न्यूनतम आयु क्या है?
+    a_hi: भारत के संविधान के अनुच्छेद 84(b) के तहत 25 वर्ष।
+
+  - q_en: Can an NRI vote in Indian elections?
+    a_en: >
+      Yes, under the Representation of the People (Amendment) Act, 2010, Non-Resident
+      Indians (NRIs) can register in the constituency where their passport address is
+      located, and vote in person (not by proxy or postal ballot) at the designated
+      polling station.
+    q_hi: क्या NRI भारतीय चुनावों में मतदान कर सकते हैं?
+    a_hi: >
+      हां, जन प्रतिनिधित्व (संशोधन) अधिनियम, 2010 के तहत, NRI अपने पासपोर्ट पते वाले
+      निर्वाचन क्षेत्र में पंजीकरण करा सकते हैं और निर्धारित मतदान केंद्र पर व्यक्तिगत रूप से
+      (प्रॉक्सी या डाक मतपत्र से नहीं) मतदान कर सकते हैं।
+
+  - q_en: What happens if an EVM malfunctions on polling day?
+    a_en: >
+      The Presiding Officer replaces the faulty EVM with a reserve unit. Votes recorded
+      in the Control Unit up to the malfunction are preserved. A fresh Control Unit and
+      Ballot Unit are used for subsequent voting.
+    q_hi: मतदान दिवस पर EVM खराब होने पर क्या होता है?
+    a_hi: >
+      पीठासीन अधिकारी खराब EVM को रिजर्व यूनिट से बदलते हैं। खराबी तक कंट्रोल यूनिट में
+      दर्ज वोट सुरक्षित रहते हैं। बाद के मतदान के लिए नई कंट्रोल यूनिट और बैलट यूनिट
+      उपयोग की जाती है।
+
+  - q_en: How is an election symbol allotted to a candidate?
+    a_en: >
+      Recognised national and state parties retain their reserved symbols. Candidates from
+      registered-but-unrecognised parties or independents are allotted symbols from a list
+      of free symbols by the Returning Officer after the withdrawal deadline, through a
+      draw of lots if there is a conflict.
+    q_hi: उम्मीदवार को चुनाव चिह्न कैसे आवंटित किया जाता है?
+    a_hi: >
+      मान्यता प्राप्त राष्ट्रीय और राज्य दल अपने आरक्षित चिह्न रखते हैं। पंजीकृत लेकिन
+      गैर-मान्यता प्राप्त दलों या निर्दलीय उम्मीदवारों को वापसी की समय-सीमा के बाद
+      रिटर्निंग ऑफिसर द्वारा मुक्त चिह्नों की सूची से चिह्न आवंटित किए जाते हैं।
+
+  - q_en: What is the procedure if a candidate dies before polling?
+    a_en: >
+      If a recognised party's candidate dies before polling, the election is countermanded
+      (postponed) for that constituency and a fresh schedule is announced. For independent
+      or unrecognised party candidates, the election proceeds normally.
+    q_hi: मतदान से पहले किसी उम्मीदवार की मृत्यु होने पर क्या प्रक्रिया होती है?
+    a_hi: >
+      यदि किसी मान्यता प्राप्त दल के उम्मीदवार की मृत्यु हो जाती है, तो उस निर्वाचन क्षेत्र
+      के लिए चुनाव रद्द (स्थगित) कर दिया जाता है और नया कार्यक्रम घोषित किया जाता है।
+      निर्दलीय या गैर-मान्यता प्राप्त दल के उम्मीदवारों के लिए चुनाव सामान्य रूप से चलता है।
+
+  - q_en: What documents are accepted as voter ID at the polling booth?
+    a_en: >
+      Primary: EPIC (Voter ID card). If EPIC is unavailable, 12 alternatives are accepted:
+      Aadhaar card, MNREGA job card, passbook with photo (bank/post office), health insurance
+      smart card (ESIC/RSBY), driving licence, PAN card, Smart card (NPR), Indian passport,
+      pension document with photo, official identity card with photo for Central/State govt
+      employees, MP/MLA/MLC identity card, unique disability ID (UDID card).
+    q_hi: मतदान केंद्र पर मतदाता पहचान पत्र के रूप में कौन से दस्तावेज स्वीकार किए जाते हैं?
+    a_hi: >
+      प्राथमिक: EPIC (मतदाता पहचान पत्र)। EPIC उपलब्ध न होने पर 12 विकल्प स्वीकार्य हैं:
+      आधार कार्ड, MNREGA जॉब कार्ड, फोटो सहित बैंक/डाकघर पासबुक, स्वास्थ्य बीमा स्मार्ट
+      कार्ड, ड्राइविंग लाइसेंस, PAN कार्ड, NPR स्मार्ट कार्ड, भारतीय पासपोर्ट, फोटो सहित
+      पेंशन दस्तावेज, सरकारी कर्मचारी पहचान पत्र, सांसद/विधायक पहचान पत्र, UDID कार्ड।
+
+  - q_en: What is the role of Central Observer in Lok Sabha elections?
+    a_en: >
+      ECI deploys General Observers (IAS officers) and Police Observers (IPS officers) in
+      each constituency to ensure free and fair conduct. Expenditure Observers monitor
+      candidate spending. Observers report directly to ECI and have powers to countermand
+      polling at a specific booth in case of booth capturing.
+    q_hi: लोक सभा चुनाव में केंद्रीय प्रेक्षक की क्या भूमिका होती है?
+    a_hi: >
+      ECI प्रत्येक निर्वाचन क्षेत्र में स्वतंत्र और निष्पक्ष चुनाव सुनिश्चित करने के लिए
+      सामान्य प्रेक्षक (IAS अधिकारी) और पुलिस प्रेक्षक (IPS अधिकारी) तैनात करता है।
+      व्यय प्रेक्षक उम्मीदवार के खर्च की निगरानी करते हैं।
+
+  - q_en: What is the expenditure limit for a Lok Sabha candidate?
+    a_en: >
+      As revised in January 2022, the limit is ₹95 lakh for larger states and ₹75 lakh
+      for smaller states and Union Territories. Candidates must maintain a register of
+      election expenses and submit accounts within 30 days of result declaration.
+      Failure to do so is a ground for disqualification.
+    q_hi: लोक सभा उम्मीदवार के लिए व्यय सीमा क्या है?
+    a_hi: >
+      जनवरी 2022 में संशोधित, बड़े राज्यों के लिए सीमा ₹95 लाख और छोटे राज्यों एवं
+      केंद्र शासित प्रदेशों के लिए ₹75 लाख है। उम्मीदवारों को चुनावी खर्च का रजिस्टर
+      बनाए रखना और परिणाम घोषणा के 30 दिनों के भीतर खाते जमा करने होते हैं।
+
+  - q_en: Can a person vote from any polling station in India?
+    a_en: >
+      No. A voter can only vote at the polling station designated for their listed address
+      in the electoral roll. However, registered voters with EPIC can apply for 'Elector's
+      Profile' update to change address when they relocate.
+    q_hi: क्या कोई व्यक्ति भारत के किसी भी मतदान केंद्र से मतदान कर सकता है?
+    a_hi: >
+      नहीं। मतदाता केवल मतदाता सूची में सूचीबद्ध अपने पते के लिए निर्धारित मतदान केंद्र पर
+      ही मतदान कर सकता है।
+
+  - q_en: What is booth capturing and what is the penalty?
+    a_en: >
+      Booth capturing means seizure or takeover of a polling station to stuff ballot papers
+      or intimidate voters. It is a cognizable and non-bailable offence under Section 135A
+      of the Representation of the People Act, 1951, punishable with imprisonment of 1–3
+      years. The Presiding Officer or Observer can order polling to be stopped.
+    q_hi: बूथ कैप्चरिंग क्या है और इसकी सजा क्या है?
+    a_hi: >
+      बूथ कैप्चरिंग का अर्थ है मतपत्र भरने या मतदाताओं को डराने के लिए मतदान केंद्र पर
+      कब्जा करना। जन प्रतिनिधित्व अधिनियम, 1951 की धारा 135A के तहत यह संज्ञेय और
+      गैर-जमानती अपराध है जिसमें 1–3 वर्ष कारावास हो सकता है।
+
+  - q_en: How are reserved constituencies determined for SC/ST?
+    a_en: >
+      Constituencies are reserved for Scheduled Castes (84 seats) and Scheduled Tribes
+      (47 seats) in Lok Sabha based on their population proportion, as determined by the
+      Delimitation Commission following each Census. Only SC/ST candidates can contest
+      from these reserved seats, but all voters in the constituency vote.
+    q_hi: SC/ST के लिए आरक्षित निर्वाचन क्षेत्र कैसे निर्धारित होते हैं?
+    a_hi: >
+      लोक सभा में अनुसूचित जातियों (84 सीटें) और अनुसूचित जनजातियों (47 सीटें) के लिए
+      प्रत्येक जनगणना के बाद परिसीमन आयोग द्वारा उनकी जनसंख्या के अनुपात के आधार पर
+      निर्वाचन क्षेत्र आरक्षित किए जाते हैं।
+
+  - q_en: What is the role of political parties' agents on polling day?
+    a_en: >
+      Each contesting candidate can appoint a Polling Agent at each polling station.
+      The agent can observe the voting process, challenge the identity of a voter, and
+      note complaints. Counting Agents are allowed at the counting centre on counting day.
+    q_hi: मतदान दिवस पर राजनीतिक दलों के एजेंटों की क्या भूमिका होती है?
+    a_hi: >
+      प्रत्येक प्रतिस्पर्धी उम्मीदवार प्रत्येक मतदान केंद्र पर एक मतदान एजेंट नियुक्त कर
+      सकता है। एजेंट मतदान प्रक्रिया देख सकता है, मतदाता की पहचान को चुनौती दे सकता है।
+
+  - q_en: What is the 'silence period' and what is prohibited?
+    a_en: >
+      The 48-hour silence period before polling prohibits public meetings, rallies,
+      processions, and broadcasting/telecasting election content. Social media political
+      content is also covered. Violation under Section 126, RPA 1951 is punishable by
+      up to 2 years' imprisonment or fine.
+    q_hi: "'मौन काल' क्या है और क्या निषिद्ध है?"
+    a_hi: >
+      मतदान से पहले 48 घंटे का मौन काल सार्वजनिक सभाओं, रैलियों, जुलूसों और चुनाव सामग्री
+      के प्रसारण पर रोक लगाता है। सोशल मीडिया राजनीतिक सामग्री भी इसमें शामिल है।
+      जन प्रतिनिधित्व अधिनियम, 1951 की धारा 126 के तहत उल्लंघन पर 2 वर्ष कारावास हो सकता है।
+
+  - q_en: How is Rajya Sabha different from Lok Sabha in terms of elections?
+    a_en: >
+      Rajya Sabha members are not directly elected by the public. They are elected by
+      elected members of State Legislative Assemblies through Single Transferable Vote
+      (proportional representation). Rajya Sabha is a permanent house with 1/3rd members
+      retiring every 2 years; it cannot be dissolved.
+    q_hi: चुनाव के संदर्भ में राज्य सभा लोक सभा से कैसे अलग है?
+    a_hi: >
+      राज्य सभा सदस्य जनता द्वारा सीधे नहीं चुने जाते। वे राज्य विधानसभाओं के निर्वाचित
+      सदस्यों द्वारा एकल हस्तांतरणीय मत (आनुपातिक प्रतिनिधित्व) के माध्यम से चुने जाते हैं।
+      राज्य सभा स्थायी सदन है; इसे भंग नहीं किया जा सकता।
+
+  - q_en: What is a by-election (bye-poll)?
+    a_en: >
+      A by-election is held to fill a vacancy in Lok Sabha or state legislature caused by
+      death, resignation, disqualification, or court order. It must be held within 6 months
+      of the vacancy arising, unless less than 1 year remains in the House's term.
+    q_hi: उप-चुनाव (bye-poll) क्या है?
+    a_hi: >
+      उप-चुनाव मृत्यु, इस्तीफे, अयोग्यता, या अदालती आदेश के कारण लोक सभा या राज्य
+      विधानसभा में रिक्त सीट भरने के लिए आयोजित किया जाता है। रिक्ति होने के 6 महीने के
+      भीतर इसे करना होता है, जब तक कि सदन के कार्यकाल में 1 वर्ष से कम न बचा हो।
+
+  - q_en: Can a candidate contest from two constituencies simultaneously?
+    a_en: >
+      Yes. Under Section 33(7) of the Representation of the People Act, 1951, a candidate
+      can contest from a maximum of 2 constituencies. However, if elected from both, they
+      must vacate one seat within 14 days, triggering a by-election in the vacated constituency.
+    q_hi: क्या कोई उम्मीदवार एक साथ दो निर्वाचन क्षेत्रों से चुनाव लड़ सकता है?
+    a_hi: >
+      हां। जन प्रतिनिधित्व अधिनियम, 1951 की धारा 33(7) के तहत उम्मीदवार अधिकतम 2
+      निर्वाचन क्षेत्रों से चुनाव लड़ सकता है। हालांकि, दोनों से जीतने पर उसे 14 दिनों के
+      भीतर एक सीट खाली करनी होगी।
+
+  - q_en: What is the Anti-Defection Law and how does it apply?
+    a_en: >
+      The Tenth Schedule of the Constitution (added by 52nd Amendment, 1985) provides for
+      disqualification of a member who voluntarily gives up party membership or votes against
+      party direction. The Speaker (Lok Sabha) or Chairman (Rajya Sabha) decides defection
+      cases, subject to judicial review.
+    q_hi: दल-बदल विरोधी कानून क्या है और यह कैसे लागू होता है?
+    a_hi: >
+      संविधान की दसवीं अनुसूची (52वें संशोधन, 1985 द्वारा जोड़ी गई) स्वेच्छा से दल की
+      सदस्यता छोड़ने या दल के निर्देश के विरुद्ध मतदान करने वाले सदस्य की अयोग्यता का
+      प्रावधान करती है।
+
+  - q_en: What is the difference between a 'recognised' and 'registered' political party?
+    a_en: >
+      A registered party has filed its registration with ECI under Section 29A of RPA 1951.
+      A recognised party (national or state) has fulfilled ECI criteria based on vote share
+      and seat count. Recognised parties get reserved symbols, free media time, and official
+      facilities. Registered-but-unrecognised parties get only registered status benefits.
+    q_hi: "'मान्यता प्राप्त' और 'पंजीकृत' राजनीतिक दल में क्या अंतर है?"
+    a_hi: >
+      पंजीकृत दल ने RPA 1951 की धारा 29A के तहत ECI के साथ पंजीकरण दाखिल किया है।
+      मान्यता प्राप्त दल (राष्ट्रीय या राज्य) ने मतदान हिस्सेदारी और सीट संख्या के आधार पर
+      ECI के मानदंड पूरे किए हैं।

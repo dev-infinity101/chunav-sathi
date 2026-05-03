@@ -1,0 +1,324 @@
+level: vidhan_sabha
+name_en: Vidhan Sabha (State Legislative Assembly Elections)
+name_hi: विधान सभा (राज्य विधानमंडल चुनाव)
+description_en: >
+  Vidhan Sabha is the lower house of each state legislature in India. Members are directly
+  elected by eligible voters from single-member constituencies within the state. Elections
+  are conducted by the Election Commission of India under Articles 168–212 of the
+  Constitution and the Representation of the People Act, 1951. There are 28 states and
+  8 Union Territories; most states have a unicameral legislature (only Vidhan Sabha),
+  while 6 states also have an upper house called Vidhan Parishad.
+description_hi: >
+  विधान सभा भारत में प्रत्येक राज्य विधानमंडल का निचला सदन है। सदस्य राज्य के एकल-सदस्यीय
+  निर्वाचन क्षेत्रों से पात्र मतदाताओं द्वारा सीधे चुने जाते हैं। चुनाव संविधान के अनुच्छेद
+  168–212 और जन प्रतिनिधित्व अधिनियम, 1951 के तहत भारत निर्वाचन आयोग द्वारा आयोजित
+  किए जाते हैं।
+governing_body: Election Commission of India
+constitutional_basis: Articles 168–212; Representation of the People Act 1951
+term_years: 5
+minimum_voter_age: 18
+minimum_candidate_age: 25
+seat_range: "60 (Sikkim, Goa) to 403 (Uttar Pradesh)"
+states_with_vidhan_parishad:
+  - Uttar Pradesh
+  - Bihar
+  - Maharashtra
+  - Karnataka
+  - Andhra Pradesh
+  - Telangana
+
+phases:
+  - id: model_code
+    order: 1
+    name_en: Model Code of Conduct (MCC)
+    name_hi: आदर्श आचार संहिता (MCC)
+    duration_days_typical: 60
+    description_en: >
+      MCC comes into effect from the date ECI announces the election schedule and applies
+      to the entire state. For states going to polls, the incumbent state government is
+      also covered by MCC restrictions. Central MCC applies if elections are held
+      simultaneously with Lok Sabha.
+    description_hi: >
+      ECI द्वारा चुनाव कार्यक्रम की घोषणा की तारीख से MCC प्रभावी होती है और पूरे राज्य
+      पर लागू होती है। चुनाव में जाने वाले राज्यों में, मौजूदा राज्य सरकार भी MCC
+      प्रतिबंधों के अंतर्गत आती है।
+    key_facts:
+      - State government cannot transfer senior officials without ECI's prior approval during MCC.
+      - New welfare schemes or project announcements are prohibited once MCC is in effect.
+      - Government vehicles cannot be used for campaigning.
+      - Officials found violating MCC face transfers and disciplinary action at ECI's direction.
+      - MCC applies to the entire state even if elections are phased across different districts.
+
+  - id: notification
+    order: 2
+    name_en: Election Notification
+    name_hi: चुनाव अधिसूचना
+    duration_days_typical: 1
+    description_en: >
+      The Governor of the state issues the election notification in the Official Gazette,
+      calling elections for the state assembly constituencies. The Returning Officer for
+      each constituency is designated before this date.
+    description_hi: >
+      राज्य के राज्यपाल राजकीय राजपत्र में चुनाव अधिसूचना जारी करते हैं। प्रत्येक
+      निर्वाचन क्षेत्र के लिए रिटर्निंग ऑफिसर इस तिथि से पहले नियुक्त किया जाता है।
+    key_facts:
+      - For UTs with legislature (Delhi, Puducherry), the Lieutenant Governor or Administrator issues the notification.
+      - Issued under Section 15 of the Representation of the People Act, 1951.
+      - Separate notifications for different phases within the same state.
+
+  - id: nomination
+    order: 3
+    name_en: Filing of Nominations
+    name_hi: नामांकन दाखिल करना
+    duration_days_typical: 7
+    description_en: >
+      Candidates file nomination papers with the Returning Officer. A candidate must be
+      a citizen of India, at least 25 years of age, and enrolled as a voter in any assembly
+      constituency within the state. Security deposit is ₹10,000 (₹5,000 for SC/ST).
+    description_hi: >
+      उम्मीदवार रिटर्निंग ऑफिसर के पास नामांकन पत्र दाखिल करते हैं। उम्मीदवार को भारत
+      का नागरिक, कम से कम 25 वर्ष का, और राज्य के किसी भी विधानसभा निर्वाचन क्षेत्र में
+      मतदाता के रूप में पंजीकृत होना चाहिए। सुरक्षा जमा: ₹10,000 (SC/ST के लिए ₹5,000)।
+    key_facts:
+      - Security deposit is ₹10,000 for general candidates and ₹5,000 for SC/ST (lower than Lok Sabha).
+      - Mandatory affidavit (Form 26) disclosing criminal antecedents, assets, and liabilities.
+      - Proposer must be a voter from the same constituency.
+      - Maximum 4 nomination sets per candidate.
+      - Nominations must be filed between 11 AM and 3 PM on working days.
+
+  - id: scrutiny
+    order: 4
+    name_en: Scrutiny of Nominations
+    name_hi: नामांकन पत्रों की जांच
+    duration_days_typical: 1
+    description_en: >
+      The Returning Officer examines all nominations for compliance with constitutional
+      and statutory requirements on the day following the last date of nomination.
+    description_hi: >
+      रिटर्निंग ऑफिसर नामांकन की अंतिम तारीख के अगले दिन सभी नामांकनों की संवैधानिक
+      और वैधानिक आवश्यकताओं के अनुपालन की जांच करता है।
+    key_facts:
+      - Disqualifications: holding an office of profit, unsound mind, insolvency, or conviction carrying 2+ years sentence.
+      - Candidacy requires clean record regarding electoral offences under Sections 8–11 of RPA 1951.
+      - RO must record reasons for rejection in writing.
+      - Rejected candidates can challenge the order through election petition in High Court.
+
+  - id: withdrawal
+    order: 5
+    name_en: Withdrawal of Candidature
+    name_hi: उम्मीदवारी वापस लेना
+    duration_days_typical: 2
+    description_en: >
+      Valid nominees may withdraw their candidature within the prescribed period. After the
+      withdrawal deadline, election symbols are allotted and the final list of contesting
+      candidates is published by the RO.
+    description_hi: >
+      वैध नामांकित उम्मीदवार निर्धारित अवधि के भीतर उम्मीदवारी वापस ले सकते हैं।
+      वापसी की समय-सीमा के बाद, चुनाव चिह्न आवंटित किए जाते हैं।
+    key_facts:
+      - Withdrawal is irrevocable once submitted to the RO.
+      - State parties' reserved symbols are allotted to their candidates automatically.
+      - Free symbols are allotted to independents from the ECI list.
+
+  - id: campaign
+    order: 6
+    name_en: Election Campaign
+    name_hi: चुनाव प्रचार
+    duration_days_typical: 14
+    description_en: >
+      Political parties and candidates campaign across constituencies. Expenditure limits
+      for state assembly candidates are lower than for Lok Sabha — typically ₹40 lakh
+      (larger states) to ₹28 lakh (smaller states/UTs), as revised in 2022.
+    description_hi: >
+      राजनीतिक दल और उम्मीदवार निर्वाचन क्षेत्रों में प्रचार करते हैं। राज्य विधानसभा
+      उम्मीदवारों के लिए व्यय सीमा लोक सभा से कम है — 2022 में संशोधित ₹40 लाख
+      (बड़े राज्य) से ₹28 लाख (छोटे राज्य/UT)।
+    key_facts:
+      - Expenditure limit revised in January 2022: ₹40 lakh for larger states, ₹28 lakh for smaller states and UTs.
+      - Campaign material (pamphlets, posters) must carry name and address of the printer and publisher.
+      - Wall writing requires permission from the property owner.
+      - Paid news is a violation; ECI's Media Certification and Monitoring Committee (MCMC) monitors it.
+      - Pre-certified political advertisements must be cleared by MCMC before release.
+
+  - id: silence_period
+    order: 7
+    name_en: Silence Period
+    name_hi: मौन काल
+    duration_days_typical: 2
+    description_en: >
+      Campaigning is banned 48 hours before polling begins. All public meetings, rallies,
+      and electronic/social media political content are prohibited during this window.
+    description_hi: >
+      मतदान शुरू होने से 48 घंटे पहले प्रचार पर रोक होती है। इस दौरान सभी सार्वजनिक
+      सभाएं, रैलियां, और इलेक्ट्रॉनिक/सोशल मीडिया राजनीतिक सामग्री प्रतिबंधित है।
+    key_facts:
+      - Section 126 of the Representation of the People Act, 1951 governs this prohibition.
+      - Violation is a cognizable offence punishable with imprisonment up to 2 years.
+      - Print media is not covered by Section 126 but is subject to MCC guidelines.
+
+  - id: polling
+    order: 8
+    name_en: Polling Day
+    name_hi: मतदान दिवस
+    duration_days_typical: 1
+    description_en: >
+      Voters cast ballots at polling stations using EVMs with VVPAT. State elections
+      may involve police forces from Central Armed Police Forces (CAPF) or additional
+      state police deployment as per ECI's security assessment.
+    description_hi: >
+      मतदाता VVPAT के साथ EVM का उपयोग करके मतदान केंद्रों पर मतदान करते हैं। राज्य
+      चुनावों में ECI के सुरक्षा आकलन के अनुसार केंद्रीय सशस्त्र पुलिस बल या अतिरिक्त
+      राज्य पुलिस तैनात की जा सकती है।
+    key_facts:
+      - State elections may be conducted in multiple phases in large states (e.g., UP in 7 phases).
+      - Maximum 1,500 voters per polling station.
+      - Mock poll conducted before actual voting each morning.
+      - ECI can transfer or suspend officials for election duty violations.
+      - Voters in queue at closing time have the right to vote.
+
+  - id: counting
+    order: 9
+    name_en: Counting of Votes
+    name_hi: मतगणना
+    duration_days_typical: 1
+    description_en: >
+      Votes are counted at strong rooms under ECI supervision. VVPAT verification is
+      conducted for 5 randomly selected EVMs per assembly constituency (for Lok Sabha
+      counting done together with state, per segment).
+    description_hi: >
+      ECI की निगरानी में स्ट्रॉन्ग रूम में वोटों की गिनती की जाती है। प्रत्येक विधानसभा
+      निर्वाचन क्षेत्र में 5 यादृच्छिक EVM के लिए VVPAT सत्यापन किया जाता है।
+    key_facts:
+      - EVM strong rooms are sealed with multi-party seals after polling and opened only on counting day.
+      - Webcasting of counting process is done for transparency.
+      - Postal ballots are counted first.
+      - Each candidate can have one counting agent per table.
+
+  - id: results
+    order: 10
+    name_en: Declaration of Results and Government Formation
+    name_hi: परिणाम घोषणा और सरकार गठन
+    duration_days_typical: 1
+    description_en: >
+      The Returning Officer declares winners constituency-wise. The party or coalition
+      commanding majority (at least half of total seats + 1) is invited by the Governor
+      to form the government. The leader is sworn in as Chief Minister.
+    description_hi: >
+      रिटर्निंग ऑफिसर निर्वाचन क्षेत्र-वार विजेताओं की घोषणा करते हैं। बहुमत (कुल सीटों
+      का कम से कम आधा + 1) वाले दल या गठबंधन को राज्यपाल सरकार बनाने के लिए आमंत्रित
+      करते हैं। नेता को मुख्यमंत्री के रूप में शपथ दिलाई जाती है।
+    key_facts:
+      - Simple majority required: 50% of filled seats + 1 (not 50% of total seats if some seats are countermanded).
+      - President's Rule (Article 356) is imposed if no party can form a stable government.
+      - Floor test must be passed within a deadline set by Governor or Supreme Court.
+      - Security deposit forfeited if candidate gets less than 1/6th of total valid votes polled.
+
+key_concepts:
+  - term: Floor Test
+    full_form: Floor Test (Trust Vote)
+    explanation_en: >
+      A constitutional mechanism where the Chief Minister must prove majority support in
+      the Vidhan Sabha by winning a vote of confidence. The Governor can call for a floor
+      test if the majority is in doubt. Failure leads to resignation or dismissal.
+    explanation_hi: >
+      एक संवैधानिक तंत्र जहां मुख्यमंत्री को विधान सभा में विश्वास मत जीतकर बहुमत समर्थन
+      साबित करना होता है। बहुमत संदिग्ध होने पर राज्यपाल फ्लोर टेस्ट बुला सकते हैं।
+
+  - term: President's Rule
+    full_form: President's Rule (Article 356)
+    explanation_en: >
+      Constitutional provision allowing the President to assume governance of a state if
+      the state government cannot function according to the Constitution. Must be approved
+      by Parliament within 2 months and can last maximum 3 years.
+    explanation_hi: >
+      संवैधानिक प्रावधान जो राष्ट्रपति को राज्य सरकार के संविधान के अनुसार कार्य नहीं कर
+      पाने पर राज्य शासन संभालने की अनुमति देता है।
+
+  - term: Vidhan Parishad
+    full_form: Vidhan Parishad (State Legislative Council)
+    explanation_en: >
+      The upper house of state legislature, existing in 6 states (UP, Bihar, Maharashtra,
+      Karnataka, Andhra Pradesh, Telangana). Members are elected by MLAs, local bodies,
+      teachers, and graduates, and appointed by the Governor. Not directly elected by voters.
+    explanation_hi: >
+      राज्य विधानमंडल का ऊपरी सदन, 6 राज्यों (UP, बिहार, महाराष्ट्र, कर्नाटक, आंध्र प्रदेश,
+      तेलंगाना) में मौजूद है। सदस्य MLA, स्थानीय निकायों, शिक्षकों और स्नातकों द्वारा चुने
+      जाते हैं, तथा राज्यपाल द्वारा नियुक्त किए जाते हैं।
+
+  - term: MLA
+    full_form: Member of Legislative Assembly
+    explanation_en: >
+      An elected representative from an assembly constituency who sits in the Vidhan Sabha.
+      MLAs elect the Vidhan Parishad members (1/3rd of MLA seats), participate in Presidential
+      elections, and can be elected to Rajya Sabha (indirectly).
+    explanation_hi: >
+      विधानसभा निर्वाचन क्षेत्र से एक निर्वाचित प्रतिनिधि जो विधान सभा में बैठता है।
+      MLA विधान परिषद सदस्यों का चुनाव करते हैं, राष्ट्रपति चुनाव में भाग लेते हैं।
+
+  - term: Anti-Defection Law
+    full_form: Tenth Schedule (Anti-Defection Law)
+    explanation_en: >
+      Applies to state legislatures as well. An MLA is disqualified if they voluntarily
+      give up party membership or vote against the party whip without the Speaker's
+      dispensation. The Speaker decides defection cases.
+    explanation_hi: >
+      राज्य विधानमंडलों पर भी लागू होता है। एक विधायक को अयोग्य ठहराया जाता है यदि वे
+      स्वेच्छा से दल की सदस्यता छोड़ते हैं या अध्यक्ष की छूट के बिना दल के व्हिप के
+      खिलाफ मतदान करते हैं।
+
+faqs:
+  - q_en: How is Vidhan Sabha different from Lok Sabha in terms of elections?
+    a_en: >
+      Both use the same FPTP system and EVM-VVPAT. Key differences: Vidhan Sabha candidates
+      need a security deposit of ₹10,000 (vs. ₹25,000 for Lok Sabha), expenditure limit
+      is ₹40 lakh (vs. ₹95 lakh), and the winner becomes MLA (not MP). The minimum age
+      to contest is the same (25 years).
+    q_hi: चुनाव के संदर्भ में विधान सभा लोक सभा से कैसे अलग है?
+    a_hi: >
+      दोनों एक ही FPTP प्रणाली और EVM-VVPAT का उपयोग करते हैं। मुख्य अंतर: विधान सभा
+      उम्मीदवारों को ₹10,000 की सुरक्षा जमा (लोक सभा के लिए ₹25,000 बनाम), व्यय सीमा
+      ₹40 लाख (बनाम ₹95 लाख) है।
+
+  - q_en: What happens when no party gets majority in Vidhan Sabha?
+    a_en: >
+      If no single party or pre-election coalition commands a majority, the Governor
+      invites the largest party to prove majority on the floor. If they fail, others
+      may attempt. If no one can form a stable government, President's Rule under
+      Article 356 is imposed after Governor's report.
+    q_hi: जब विधान सभा में किसी दल को बहुमत नहीं मिलता तो क्या होता है?
+    a_hi: >
+      यदि कोई एकल दल या पूर्व-चुनाव गठबंधन बहुमत नहीं रखता, तो राज्यपाल सबसे बड़े दल
+      को फ्लोर पर बहुमत साबित करने के लिए आमंत्रित करते हैं। यदि कोई स्थिर सरकार नहीं बना
+      सकता, तो अनुच्छेद 356 के तहत राष्ट्रपति शासन लगाया जाता है।
+
+  - q_en: Can Vidhan Sabha elections be held simultaneously with Lok Sabha?
+    a_en: >
+      Yes, and this is common. Several states hold their assembly elections simultaneously
+      with Lok Sabha general elections. The concept of 'One Nation One Election' proposes
+      synchronising all state and Lok Sabha elections, but it has not been implemented yet.
+    q_hi: क्या विधान सभा चुनाव लोक सभा के साथ एक साथ हो सकते हैं?
+    a_hi: >
+      हां, और यह सामान्य है। कई राज्य लोक सभा आम चुनावों के साथ अपने विधानसभा चुनाव
+      एक साथ करते हैं। 'एक राष्ट्र एक चुनाव' की अवधारणा सभी चुनावों को समकालिक करने
+      का प्रस्ताव करती है।
+
+  - q_en: What is the role of the Governor during state elections?
+    a_en: >
+      The Governor issues the election notification on ECI's advice. After results,
+      the Governor invites the majority leader to form the government and administers
+      the oath of office. During elections, the state is under Governor's Rule guidance
+      subject to MCC and ECI's superintendence.
+    q_hi: राज्य चुनावों के दौरान राज्यपाल की क्या भूमिका होती है?
+    a_hi: >
+      राज्यपाल ECI की सलाह पर चुनाव अधिसूचना जारी करते हैं। परिणामों के बाद, राज्यपाल
+      बहुमत नेता को सरकार बनाने के लिए आमंत्रित करते हैं और पद की शपथ दिलाते हैं।
+
+  - q_en: How many seats does the largest state assembly have?
+    a_en: >
+      Uttar Pradesh has the largest Vidhan Sabha with 403 seats. Other large assemblies:
+      Maharashtra (288), West Bengal (294), Bihar (243), Madhya Pradesh (230). The smallest
+      assemblies are in Sikkim (32) and Goa (40).
+    q_hi: सबसे बड़ी राज्य विधानसभा में कितनी सीटें हैं?
+    a_hi: >
+      उत्तर प्रदेश में 403 सीटों के साथ सबसे बड़ी विधान सभा है। अन्य बड़ी विधानसभाएं:
+      महाराष्ट्र (288), पश्चिम बंगाल (294), बिहार (243), मध्य प्रदेश (230)।
