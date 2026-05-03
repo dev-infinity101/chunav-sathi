@@ -47,6 +47,7 @@ service-account*.json
 prompts.md
 chunav-saathi-build-plan.md
 chunav-saathi-prd.md 
+dev-checklist.md
 
 #tests
 backend/tests   

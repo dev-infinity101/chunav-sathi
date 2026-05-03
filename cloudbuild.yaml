@@ -5,19 +5,10 @@ steps:
     args:
       - build
       - '-t'
-      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
-      - '-t'
       - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:latest'
       - '.'
 
   # Push both tags
-  - name: 'gcr.io/cloud-builders/docker'
-    id: push-sha
-    waitFor: [build]
-    args:
-      - push
-      - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
-
   - name: 'gcr.io/cloud-builders/docker'
     id: push-latest
     waitFor: [build]
@@ -28,13 +19,13 @@ steps:
   # Deploy to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     id: deploy
-    waitFor: [push-sha]
+    waitFor: [push-latest]
     entrypoint: gcloud
     args:
       - run
       - deploy
       - chunav-saathi
-      - '--image=${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:${SHORT_SHA}'
+      - '--image=${_REGION}-docker.pkg.dev/${PROJECT_ID}/chunav-saathi/app:latest'
       - '--region=${_REGION}'
       - '--platform=managed'
       - '--service-account=chunav-runner@${PROJECT_ID}.iam.gserviceaccount.com'

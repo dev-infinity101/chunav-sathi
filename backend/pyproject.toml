@@ -35,7 +35,15 @@ packages = ["app"]
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
+addopts = "--cov=app --cov-report=term --cov-report=html --cov-fail-under=70"
 
 [tool.coverage.run]
 source = ["app"]
 omit = ["app/rag/index_builder.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+]
